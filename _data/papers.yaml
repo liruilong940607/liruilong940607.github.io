@@ -69,8 +69,8 @@
 
   results:
     - name: Real-time Captured Video
-      src: videos/submission.mp4
-      type: video
+      src: https://www.youtube.com/embed/NT_2M3h6sL4
+      type: youtube
 
 
 

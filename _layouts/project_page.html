@@ -76,15 +76,16 @@
 		<center><img src={{paper.teaser | replace: paper.project-root, ""}} border="0" width="90%"></center>
 		{% endif %}	
 		{% if paper.teaser-text %}
-		<center><div class="section abstract"><p>{{paper.teaser-text}}</p></div></center>
+		<center><div class="section abstract">
+			<p style="font-size: 16px;">{{paper.teaser-text}}</p>
+		</div></center>
 		{% endif %}	
 		
 		{% if paper.abstract %}
 		<div class="section abstract">
 			<h2>Abstract</h2>
 			<br>
-			<p>{{paper.abstract}}
-			</p>
+			<p style="font-size: 16px; text-align:justify">{{paper.abstract}}</p>
       	</div>
 		<br/>
 		{% endif %}
@@ -103,6 +104,8 @@
 						</video>
 						{% elsif result.type == "img" %}
 						<img src="{{result.src}}" border="0" width="80%">
+						{% elsif result.type == "youtube" %}
+						<iframe width="700" height="400" src="{{result.src}}" frameborder="0" allowfullscreen></iframe>
 						{% endif %}
 					</div>
 				</center>
@@ -127,6 +130,8 @@
 							</video>
 							{% elsif download.type == "img" %}
 							<img src="{{download.src}}" border="0" width="80%">
+							{% elsif result.type == "youtube" %}
+							<iframe width="700" height="400" src="{{result.src}}" frameborder="0" allowfullscreen></iframe>
 							{% endif %}
 						</a>
 					</div>
