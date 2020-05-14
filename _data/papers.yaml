@@ -30,12 +30,12 @@
       institutions: [1, 2, 3]
 
   institutions: 
-    - name: USC Institute for Creative Technologie
+    - name: USC Institute for Creative Technology
     - name: University of Southern California
     - name: Pinscreen
 
   paper-pub: Siggraph Real-Time Live 2020
-  # link-video: https://www.youtube.com/watch?v=NT_2M3h6sL4
+  link-video: https://www.youtube.com/watch?v=NT_2M3h6sL4
   link-projectpage: projects/VolTele/index.html
 
   # for project page
@@ -67,10 +67,10 @@
       consumer-accessible immersive 3D video chats, and just like video conferencing nowadays, only a
       single camera is sufficient.
 
-  # results:
-  #   - name: Real-time Captured Video
-  #     src: videos/submission.mp4
-  #     type: video
+  results:
+    - name: Real-time Captured Video
+      src: videos/submission.mp4
+      type: video
 
 
 
@@ -138,7 +138,7 @@
       style: "margin-right: 30px"
 
   institutions: 
-    - name: USC Institute for Creative Technologie
+    - name: USC Institute for Creative Technology
     - name: University of Southern California
     - name: Pinscreen
   paper-pub: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR, 2020)"
