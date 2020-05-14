@@ -1,0 +1,32 @@
+.profile-picture {
+    height: $image-size;
+    width: $image-size;
+    position: relative;
+    margin: 0px 15px 0 10px;
+    float: left;
+    border-radius: 20%;
+/*    p & {
+        padding: 0;
+        margin: 0;
+    }*/
+/*    @media (max-width: $small-width) {
+        img {
+            margin-top: -5px;
+        }
+    }*/
+}
+.profile-doc {
+    height: $image-size;
+    position: relative;
+    margin: 20px 15px 15px 30px;
+    color: $accent;
+    font-size: 18px;
+    line-height: 120%;
+/*    p & {
+        padding: 0;
+        margin: 0;
+    }*/
+/*    @media (max-width: $small-width) {
+    }*/
+}
+

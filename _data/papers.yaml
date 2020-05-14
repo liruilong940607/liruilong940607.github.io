@@ -1,0 +1,562 @@
+# ---------------------------------------------------------------
+# Volumetric Human Teleportation
+# ---------------------------------------------------------------
+- year: "2020"
+  paper-logo: "projects/VolTele/logo.png"
+  paper-title: "Volumetric Human Teleportation"
+  paper-authors: 
+    - name: <b>Ruilong Li</b>
+      link: http://www.liruilong.cn/
+      institutions: [1, 2]
+
+    - name: Kyle Olszewski
+      link: https://kyleolsz.github.io/
+      institutions: [1, 2]
+    
+    - name: Yuliang Xiu
+      link: http://xiuyuliang.cn/
+      institutions: [1, 2]
+    
+    - name: Shunsuke Saito
+      link: http://www-scf.usc.edu/~saitos/
+      institutions: [1, 2]
+      
+    - name: Zeng Huang
+      link: https://zeng.science/
+      institutions: [1, 2]
+      
+    - name: Hao Li
+      link: https://www.hao-li.com/
+      institutions: [1, 2, 3]
+
+  institutions: 
+    - name: USC Institute for Creative Technologie
+    - name: University of Southern California
+    - name: Pinscreen
+
+  paper-pub: Siggraph Real-Time Live 2020
+  # link-video: https://www.youtube.com/watch?v=NT_2M3h6sL4
+  link-projectpage: projects/VolTele/index.html
+
+  # for project page
+  project-root: "projects/VolTele/"
+  paper-pub-short: Siggraph Real-Time Live 2020
+  page-title: "VolTele"
+  keywords: "reconstruction; real-time; huamn; deep learning;"
+  
+  teaser: "images/teaser.jpg"
+  abstract: Volumetric captures systems for human performances typically rely on calibrated multi-view videos,
+      generic human shape priors, or customized pre-captured templates of the target subject. To this
+      end, AR and VR-based teleportation systems are costly and difficult to deploy since a capture
+      studio is required. We present the first real-time system that can produce a complete clothed
+      human body including textures using a single RGB webcam. While only a single 2D view is
+      available, we can digitize a high-fidelity 3D model of the subjects similar to a 3D scan, as well as
+      handle arbitrary subjects, poses, clothing, accessories, and lighting conditions. No pre-computed
+      template or prior model is used. First, the person is extracted from the background using a
+      semantic segmentation network, then a 3D textured model is inferred using a deep neural network
+      that formulates shape and textures using a pixel-aligned implicit function representation. The deep
+      model is trained using hundreds of high-fidelity photogrammetry scans including rigged assets, as
+      well as a sophisticated data augmentation process for effective training. We have recently
+      demonstrated how a complete clothed human body model can be extracted from a single input
+      image, but the process takes roughly a minute to generate the 3D model. Here, we introduce an
+      acceleration data structure for volumetric inference by extending classic octree representations
+      using a conflict resolution step to retain the fidelity of the generated shape. Furthermore, we
+      directly integrate neural rendering into the pipeline without extracting a mesh explicitly. Finally, we
+      demonstrate an end-to-end system for digitizing and visualizing 3D shapes of a clothed subject in
+      real-time using two GV100 Nvidia GPUs. Our system will present a core building block in enabling
+      consumer-accessible immersive 3D video chats, and just like video conferencing nowadays, only a
+      single camera is sufficient.
+
+  # results:
+  #   - name: Real-time Captured Video
+  #     src: videos/submission.mp4
+  #     type: video
+
+
+
+# ---------------------------------------------------------------
+# Learning Formation of Physically-Based Face Attributes
+# ---------------------------------------------------------------
+- year: "2020"
+  paper-logo: "projects/deep3DMM/logo.jpg"
+  paper-title: "Learning Formation of Physically-Based Face Attributes"
+  paper-authors: 
+    - name: <b>Ruilong Li*</b>
+      link: http://www.liruilong.cn/
+      institutions: [1, 2]
+      style: "margin-right: 30px"
+
+    - name: Karl Bladin*
+      link: http://kbladin.se/
+      institutions: [1]
+      style: "margin-right: 30px"
+
+    - name: Yajie Zhao*
+      link: https://www.yajie-zhao.com/
+      institutions: [1]
+      style: "margin-right: 30px"
+
+    - name: Chinmay Chinara
+      link: 
+      institutions: [1]
+      style: "margin-right: 30px"
+
+    - name: Owen Ingraham
+      link: 
+      institutions: [1]
+      style: "margin-right: 30px"
+      break-line: true
+
+    - name: Pengda Xiang
+      link: 
+      institutions: [1,2]
+      style: "margin-right: 30px"
+
+    - name: Xinglei Ren
+      link: 
+      institutions: [1]
+      style: "margin-right: 30px"
+
+    - name: Pratusha Prasad
+      link: 
+      institutions: [1]
+      style: "margin-right: 30px"
+
+    - name: Bipin Kishore
+      link: 
+      institutions: [1]
+      style: "margin-right: 30px"
+
+    - name: Jun Xing
+      link: https://junxnui.github.io/
+      institutions: [1]
+      style: "margin-right: 30px"
+
+    - name: Hao Li
+      link: https://www.hao-li.com/
+      institutions: [1, 2, 3]
+      style: "margin-right: 30px"
+
+  institutions: 
+    - name: USC Institute for Creative Technologie
+    - name: University of Southern California
+    - name: Pinscreen
+  paper-pub: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR, 2020)"
+  link-pdf: projects/deep3DMM/files/04724.pdf
+  link-arxiv: https://arxiv.org/abs/2004.03458
+  link-projectpage: https://vgl.ict.usc.edu/Research/Deep3DMM/
+  # link-projectpage: projects/deep3DMM/index.html
+  # link-gitcode: https://github.com/liruilong940607/deep3DMM
+  link-video: projects/deep3DMM/videos/04724-supp.mp4
+
+  # for project page
+  project-root: "projects/deep3DMM/"
+  paper-pub-short: CVPR 2020
+  page-title: "deep3DMM"
+  keywords: "3DMM; human face; GAN;"
+
+  teaser: "images/overview.jpg"
+  teaser-text: "We introduce a comprehensive framework for learning 
+      physically based face models from highly constrained facial scan data. 
+      Our deep learning based approach for 3D morphable face modeling seizes 
+      the fidelity of nearly 4000 high resolution face scans encompassing 
+      expression and identity separation (a). The model (b) combines a 
+      multitude of anatomical and physically based face attributes to generate 
+      an infinite number of digitized faces (c). Our model generates faces at 
+      pore level geometry resolution (d)."
+
+  abstract: Based on a combined data set of 4000 high resolution facial 
+      scans, we introduce a non-linear morphable face model, capable of 
+      producing multifarious face geometry of pore-level resolution, coupled 
+      with material attributes for use in physically-based rendering. We aim 
+      to maximize the variety of the participant’s face identities, while 
+      increasing the robustness of correspondence between unique components, 
+      including middle-frequency geometry, albedo maps, specular intensity 
+      maps and high-frequency displacement details. Our deep learning based 
+      generative model learns to correlate albedo and geometry, which ensures 
+      the anatomical correctness of the generated assets. We demonstrate 
+      potential use of our generative model for novel identity generation, 
+      model fitting, interpolation, animation, high fidelity data 
+      visualization, and low-to-high resolution data domain transferring. 
+      We hope the release of this generative model will encourage further 
+      cooperation between all graphics, vision, and data focused 
+      professionals, while demonstrating the cumulative value of every 
+      individual’s complete biometric profile.
+
+  results:
+    - name: Randomly Generated Samples
+      src: videos/samples.mp4
+      type: video
+      
+    - name: Rendered Generated Identities
+      src: videos/generated_render.mp4
+      type: video
+
+    - name: Identity Interpolatio
+      src: videos/interpolation.mp4
+      type: video
+
+    - name: Low-quality data enhancement
+      src: images/enhancement.png
+      type: img
+
+  downloads:
+    - name: PDF
+      src: images/paper.jpg
+      type: img
+      link: files/04724.pdf
+      
+    - name: Full Video
+      src: videos/04724-supp.mp4
+      type: video
+      link: videos/04724-supp.mp4
+
+    - name: Code & Data [Coming Soon]
+      src: images/code.png
+      type: img
+      link: https://github.com/liruilong940607/deep3DMM
+      
+  citation: "@InProceedings{deep3DMM_CVPR,</br>
+      author = {Ruilong Li and Karl Bladin and Yajie Zhao and Chinmay Chinara and Owen Ingraham and Pengda Xiang and Xinglei Ren and Pratusha Prasad and Bipin Kishore and Jun Xing and Hao Li},</br>
+      title = {Learning Formation of Physically-Based Face Attributes},</br>
+      booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},</br>
+      month = {June},</br>
+      year = {2020}</br>
+      }"
+
+
+
+
+# ---------------------------------------------------------------
+# Deep Portrait Image Completion and Extrapolation
+# ---------------------------------------------------------------
+- year: "2019"
+  paper-logo: "projects/PortraitCompletion/logo.png"
+  paper-title: "Deep Portrait Image Completion and Extrapolation"
+  paper-authors: 
+    - name: Xian Wu
+      link: 
+      institutions: [1]
+    - name: <b>Ruilong Li</b>
+      link: http://www.liruilong.cn/
+      institutions: [1]
+    - name: Fang-Lue Zhang
+      link: http://ecs.victoria.ac.nz/Main/FanglueZhang/
+      institutions: [2]
+      break-line: true
+    - name: Jian-Cheng Liu
+      link: 
+      institutions: [1]
+    - name: Jue Wang
+      link: http://www.juew.org/
+      institutions: [3]
+    - name: Ariel Shamir
+      link: http://www.faculty.idc.ac.il/arik/site/index.asp
+      institutions: [4]
+    - name: Shi-Min Hu
+      link: https://cg.cs.tsinghua.edu.cn/prof_hu.htm
+      institutions: [1]
+  institutions: 
+    - name: Tsinghua Unviersity
+    - name: Victoria University of Wellington
+    - name: Megvii (Face++) Research
+    - name: Interdisciplinary Center
+  paper-pub: "IEEE Transactions on Image Processing (TIP)"
+  link-pdf: "projects/PortraitCompletion/files/1808.07757.pdf"
+  link-arxiv: "https://arxiv.org/abs/1808.07757"
+  link-supplementary: "projects/PortraitCompletion/files/supplementary.pdf"
+  link-projectpage: "projects/PortraitCompletion/index.html"
+
+  # for project page
+  project-root: "projects/PortraitCompletion/"
+  paper-pub-short: IEEE Transactions on Image Processing 2019
+  page-title: "PortraitCompletion"
+  keywords: "image completion; portrait extrapolation; human parsing; deep learning;"
+  
+  teaser: "images/pic.png"
+  abstract: "General image completion and extrapolation methods often fail on portrait images where parts of the human body need to be recovered - a task that requires accurate human body structure and appearance synthesis. We present a two stage deep learning framework for tacking this problem. In the first stage, given a portrait image with an incomplete human body, we extract a complete, coherent human body structure through a human parsing network, which focuses on structure recovery inside the unknown region with the help of pose estimation. In the second stage, we use an image completion network to fill the unknown region, guided by the structure map recovered in the first stage. For realistic synthesis the completion network is trained with both perceptual loss and conditional adversarial loss. We evaluate our method on public portrait image datasets, and show that it outperforms other state-of-art general image completion methods. Our method enables new portrait image editing applications such as occlusion removal and portrait extrapolation. We further show that the proposed general learning framework can be applied to other types of images, e.g. animal images."
+  
+  downloads:
+    - name: PDF
+      src: images/paper.png
+      type: img
+      link: https://arxiv.org/abs/1808.07757
+
+    # - name: Supplementary
+    #   src: images/suppl.jpg (todo)
+    #   type: img
+    #   link: files/supplementary.pdf
+
+  citation: "@article{wu2018deep,</br>
+                      title={Deep Portrait Image Completion and Extrapolation},</br>
+                      author={Wu, Xian and Li, Rui-Long and Zhang, Fang-Lue and Liu, Jian-Cheng and Wang, Jue and Shamir, Ariel and Hu, Shi-Min},</br>
+                      journal={IEEE Transactions on Image Processing},</br>
+                      year={2019}</br>
+              }"
+
+
+
+# ---------------------------------------------------------------
+# PortraitNet: Real-time Portrait Segmentation Network for Mobile Device
+# ---------------------------------------------------------------
+
+- year: "2019"
+  paper-logo: "projects/MobilePortrait/logo2.png"
+  paper-title: "PortraitNet: Real-time Portrait Segmentation Network for Mobile Device"
+  paper-authors: 
+    - name: Song-Hai Zhang
+      link: 
+      institutions: [1]
+    - name: Xin Dong
+      link: 
+      institutions: [1]
+    - name: Hui Li
+      link: 
+      institutions: [2]
+    - name: <b>Ruilong Li</b>
+      link: http://www.liruilong.cn/
+      institutions: [1]
+    - name: Yong-Liang Yang
+      link: http://www.yongliangyang.net/
+      institutions: [3]
+  institutions: 
+    - name: Tsinghua Unviersity
+    - name: Cisco Systems(China) Research &amp; Development
+    - name: University of Bath
+  paper-pub: "Computers &amp; Graphics 2019"
+  link-pdf: "projects/MobilePortrait/files/2019CAG.pdf"
+  link-gitcode: "https://github.com/dong-x16/PortraitNet"
+  link-projectpage: "projects/MobilePortrait/index.html"
+
+  # for project page
+  project-root: "projects/MobilePortrait/"
+  paper-pub-short: Computers &amp; Graphics 2019
+  page-title: "PortraitNet"
+  keywords: "Portrait;Semantic segmentation; Boundary loss; Consistency constraint loss; Mobile device;"
+  abstract: Real-time portrait segmentation plays a significant role in many applications on mobile device, such as background replacement in video chat or teleconference. In this paper, we propose a real-time portrait segmentation model, called PortraitNet, that can run effectively and efficiently on mobile device. Portrait- Net is based on a lightweight U-shape architecture with two auxiliary losses at the training stage, while no additional cost is required at the testing stage for portrait inference. The two auxiliary losses are boundary loss and consistency constraint loss. The former improves the accuracy of boundary pixels, and the latter enhances the robustness in complex lighting environment. We evaluate PortraitNet on portrait segmentation dataset EG1800 and Supervise-Portrait. Compared with the state-of-the-art methods, our approach achieves remarkable performance in terms of both accuracy and efficiency, especially for gener- ating results with sharper boundaries and under severe illumination conditions. Meanwhile, PortraitNet is capable of processing 224 × 224 RGB images at 30 FPS on iPhone 7.
+  
+  teaser: "images/paper.png"
+  downloads:
+    - name: PDF
+      src: images/pdf.jpg
+      type: img
+      link: files/2019CAG.pdf
+
+    # - name: Slides
+    #   src: images/paper.png
+    #   type: img
+    #   link: files/siggraph_asia_2017_ppt_humanseg.pptx
+    
+    - name: Code
+      src: images/code.png
+      type: img
+      link: https://github.com/dong-x16/PortraitNet
+    
+  citation: "@article{article,</br>
+            author = {Zhang, Song-Hai and Dong, Xin and Li, Hui and Li, Ruilong and Yang, Yong-Liang},</br>
+            year = {2019},</br>
+            month = {04},</br>
+            pages = {},</br>
+            title = {PortraitNet: Real-time Portrait Segmentation Network for Mobile Device},</br>
+            volume = {80},</br>
+            journal = {Computers & Graphics},</br>
+            doi = {10.1016/j.cag.2019.03.007}</br>
+            }"
+
+
+
+
+
+# ---------------------------------------------------------------
+# Pose2Seg: Detection Free Human Instance Segmentation
+# ---------------------------------------------------------------
+
+- year: "2019"
+  paper-logo: "projects/pose2seg/logo.jpg"
+  paper-title: "Pose2Seg: Detection Free Human Instance Segmentation"
+  paper-authors: 
+    - name: Song-Hai Zhang
+      link: 
+      institutions: [1, 2]
+    - name: <b>Ruilong Li (first student author)</b>
+      link: http://www.liruilong.cn/
+      institutions: [1, 2]
+    - name: Xin Dong
+      link: 
+      institutions: [1]
+    - name: Paul Rosin
+      link: http://users.cs.cf.ac.uk/Paul.Rosin/
+      institutions: [3]
+    - name: Zixi Cai
+      link: 
+      institutions: [1]
+    - name: Xi Han
+      link: 
+      institutions: [1]
+    - name: Dingcheng Yang
+      link: 
+      institutions: [1]
+    - name: Haozhi Huang
+      link: https://www.linkedin.com/in/haozhi-huang-65430880/
+      institutions: [2]
+    - name: Shi-Min Hu
+      link: https://cg.cs.tsinghua.edu.cn/prof_hu.htm
+      institutions: [1, 2]
+  institutions: 
+    - name: Tsinghua Unviersity
+    - name: BNRist 
+    - name: Tencent AI Lab 
+    - name: Cardiff University
+  paper-pub: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR, 2019)"
+  link-pdf: projects/pose2seg/files/Camera_Ready.pdf
+  link-arxiv: https://arxiv.org/abs/1803.10683
+  link-projectpage: projects/pose2seg/index.html
+  link-gitcode: https://github.com/liruilong940607/Pose2Seg
+  link-gitdata: https://github.com/liruilong940607/OCHumanApi
+  link-video: projects/pose2seg/videos/pose2seg.mp4
+
+  # for project page
+  project-root: "projects/pose2seg/"
+  paper-pub-short: CVPR 2019
+  page-title: "Pose2Seg"
+  keywords: "pose; instance segmentation; alignment; dataset; human;"
+  abstract: The standard approach to image instance segmentation is to perform the object detection first, and then segment the object from the detection bounding-box. More recently, deep learning methods like Mask R-CNN perform them jointly. However, little research takes into account the uniqueness of the "human" category, which can be well defined by the pose skeleton. Moreover, the human pose skeleton can be used to better distinguish instances with heavy occlusion than using bounding-boxes. In this paper, we present a brand new pose-based instance segmentation framework for humans which separates instances based on human pose, rather than proposal region detection. We demonstrate that our pose-based framework can achieve better accuracy than the state-of-art detection-based approach on the human instance segmentation problem, and can moreover better handle occlusion. <br><br> Furthermore, there are few public datasets containing many heavily occluded humans along with comprehensive annotations, which makes this a challenging problem seldom noticed by researchers. Therefore, in this paper we introduce a new benchmark "Occluded Human (OCHuman)", which focuses on occluded humans with comprehensive annotations including bounding-box, human pose and instance masks. This dataset contains 8110 detailed annotated human instances within 4731 images. With an average 0.67 MaxIoU for each person, OCHuman is the most complex and challenging dataset related to human instance segmentation. Through this dataset, we want to emphasize occlusion as a challenging problem for researchers to study.
+  
+  teaser: "images/overview.jpg"
+
+  downloads:
+    - name: PDF
+      src: images/paper.jpg
+      type: img
+      link: files/Camera_Ready.pdf
+    
+    - name: Code
+      src: images/code.png
+      type: img
+      link: https://github.com/liruilong940607/Pose2Seg
+
+    - name: Dataset
+      src: images/code.png
+      type: img
+      link: https://github.com/liruilong940607/OCHumanApi
+
+    - name: Video
+      src: videos/pose2seg.mp4
+      type: video
+      link: videos/pose2seg.mp4
+      
+  citation: "@InProceedings{pose2seg2019,</br>
+      author = {Zhang, Song-Hai and Li, Ruilong and Dong, Xin and Rosin, Paul L and Cai, Zixi and Xi, Han and Yang, Dingcheng and Huang, Hao-Zhi and Hu, Shi-Min},</br>
+      title = {Pose2Seg: Detection Free Human Instance Segmentation},</br>
+      booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},</br>
+      month = {June},</br>
+      year = {2019}</br>
+      }"
+
+
+
+
+# ---------------------------------------------------------------
+# Example-Guided Style-Consistent Image Synthesis from Semantic Labeling
+# ---------------------------------------------------------------
+
+- year: "2019"
+  paper-logo: "projects/GuidedPix2Pix/logo.png"
+  paper-title: "Example-Guided Style-Consistent Image Synthesis from Semantic Labeling"
+  paper-authors: 
+    - name: Miao Wang
+      link: http://miaowang.me/
+      institutions: [1]
+    - name: Guo-Ye Yang
+      link: 
+      institutions: [2]
+    - name: <b>Ruilong Li</b>
+      link: http://www.liruilong.cn/
+      institutions: [2]
+    - name: Run-Ze Liang
+      link: 
+      institutions: [2]
+      break-line: true
+    - name: Song-Hai Zhang
+      link: 
+      institutions: [2]
+    - name: Peter M. Hall
+      link: https://researchportal.bath.ac.uk/en/persons/peter-hall/
+      institutions: [3]
+    - name: Shi-Min Hu
+      link: https://cg.cs.tsinghua.edu.cn/prof_hu.htm
+      institutions: [2]
+  institutions: 
+    - name: Beihang University
+    - name: Tsinghua University
+    - name: University of Bath
+  paper-pub: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR, 2019)"
+  link-pdf: "projects/GuidedPix2Pix/files/CVPR_1135_Camera_ready.pdf"
+  link-projectpage: "projects/GuidedPix2Pix/index.html"
+  link-supplementary: "projects/GuidedPix2Pix/files/CVPR_1135_supplementary.pdf"
+  link-gitcode: "https://github.com/cxjyxxme/pix2pixSC"
+  
+  # for project page
+  project-root: "projects/GuidedPix2Pix/"
+  paper-pub-short: CVPR 2019
+  page-title: "Image-Synthesis"
+  keywords: "GAN; Transfer; Adversarial Networks;"
+  abstract: "Example-guided image synthesis aims to synthesize an image from a semantic label map and an exemplary image indicating style. We use the term “style” in this problem to refer to implicit characteristics of images, for example: in portraits “style” includes gender, racial identity, age, hairstyle; in full body pictures it includes clothing; in street scenes it refers to weather and time of day and such like. A semantic label map in these cases indicates facial expression, full body pose, or scene segmentation. We propose a solution to the example-guided image synthesis problem using conditional generative adversarial networks with style consistency. Our key contributions are (i) a novel style consistency discriminator to determine whether a pair of images are consistent in style; (ii) an adaptive semantic consistency loss; and (iii) a training data sampling strategy, for synthesizing style-consistent results to the exemplar. We demonstrate the efficiency of our method on face, dance and street view synthesis tasks."
+  
+  teaser: "images/overview.png"
+
+  downloads:
+    - name: PDF
+      src: images/paper.jpg
+      type: img
+      link: files/CVPR_1135_Camera_ready.pdf
+
+    - name: Supplementary
+      src: images/supplementary.jpg
+      type: img
+      link: files/CVPR_1135_supplementary.pdf
+
+    - name: Code
+      src: images/code.png
+      type: img
+      link: https://github.com/cxjyxxme/pix2pixSC
+      
+  citation: "@InProceedings{pix2pixSC2019,</br>
+                        author = {Wang, Miao and Yang, Guo-Ye and Li, Ruilong and Liang, Run-Ze and Zhang, Song-Hai and Hall, Peter. M and Hu, Shi-Min},</br>
+                        title = {Example-Guided Style-Consistent Image Synthesis from Semantic Labeling},</br>
+                        booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},</br>
+                        month = {June},</br>
+                        year = {2019}</br>
+                        }"
+
+
+
+
+- year: "2018"
+  paper-logo: "projects/distractors/logo.jpg"
+  paper-title: "Detecting and Removing Visual Distractors for Video Aesthetic Enhancement"
+  paper-authors: 
+    - name: Fang-Lue Zhang
+      link: http://ecs.victoria.ac.nz/Main/FanglueZhang/
+      institutions: 
+    - name: Xian Wu
+      link: 
+      institutions: 
+    - name: <b>Ruilong Li</b>
+      link: http://www.liruilong.cn/
+      institutions: 
+    - name: Jue Wang
+      link: http://www.juew.org/
+      institutions: 
+    - name: Zhao-Heng Zheng
+      link: 
+      institutions: 
+    - name: Shi-Min Hu
+      link: https://cg.cs.tsinghua.edu.cn/prof_hu.htm
+      institutions: 
+  institutions: 
+    - name: Tsinghua University
+  paper-pub: "IEEE Transactions on Multimedia (TMM, 2018)"
+  link-pdf: "https://cg.cs.tsinghua.edu.cn/papers/TMM-2017-VideoDistractor.pdf"
+  link-video1: "http://cg.cs.tsinghua.edu.cn/figures/TMM-2017-VideoDistractor-1.wmv"
+  link-video2: "http://cg.cs.tsinghua.edu.cn/figures/TMM-2017-VideoDistractor-2.wmv"

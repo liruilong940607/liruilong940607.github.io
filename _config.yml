@@ -1,0 +1,39 @@
+title: Ruilong Li (李瑞龙)
+#url: ""
+#baseurl: ""
+
+markdown: kramdown
+#ins_logo: "./bits-logo.png"
+
+tracking_id: #
+
+footer: yes
+footer_url: ""
+footer_text: "Last update: May, 2020"
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: "About"
+   link: ""
+ - name: "Resume"
+   link: "files/resume.pdf"
+ # - name: "Publications"
+ #   link: "full_pubs"
+
+exclude: ["deploy.sh"]
+
+webs: 
+  Ruilong_Li: http://www.liruilong.cn/
+  Shi-Min_Hu: https://cg.cs.tsinghua.edu.cn/prof_hu.htm
+  Song-Hai_Zhang: http://www.tsinghua.edu.cn/publish/cs/4616/2013/20130424084609737896705/20130424084609737896705_.html
+  CSCG: https://cg.cs.tsinghua.edu.cn/
+  Hao_Li: http://hao-li.com/Hao_Li/Hao_Li_-_about_me.html
+  VGL: http://vgl.ict.usc.edu/
+  Miao_Wang: http://miaowang.me/
+  Jue_Wang: http://www.juew.org/
+  Fang-Lue_Zhang: http://ecs.victoria.ac.nz/Main/FanglueZhang/
+  Haozhi_Huang: https://www.linkedin.com/in/haozhi-huang-65430880/
+  VGL: https://vgl.ict.usc.edu/

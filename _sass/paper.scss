@@ -1,0 +1,35 @@
+.paper-list {
+	line-height: 100%;
+	font-size: 16px;
+	.paper-logo {
+        width: 250px;
+        height: auto;
+        position: relative;
+        margin: auto 10px auto 0;
+    }
+	.paper-title {
+		font-size: 18px;
+		height: 25%;
+		font-weight: bold;
+    }
+    .paper-authors {
+    	height: 25%;
+    }
+    .paper-pub {
+    	height: 25%;
+    	font-weight: bold;
+    	font-style: italic;
+    }
+    .paper-links {
+    	height: 25%;
+    }
+
+    .project-logo {
+        width: auto;
+        height: auto;
+        max-height: 150px;
+        max-width: 100%;
+        position: relative;
+        margin: auto;
+    }
+}

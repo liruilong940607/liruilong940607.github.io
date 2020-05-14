@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<!-- Meta tags for search engines to crawl -->
+<meta name="robots" content="index,follow">
+<meta name="description" content="{{page.abstract}}">
+<meta name="keywords" content={{paper.keywords}}>
+
+<!-- Fonts and stuff -->
+<link href="../css/css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="../css/project.css" media="screen">
+<link rel="stylesheet" type="text/css" media="screen" href="../css/iconize.css">
+<script async="" src="../css/prettify.js"></script>
+</head>
+
+{% if page.overwrite %}
+{{content}}
+{% else %}
+
+{% assign paper = site.data.papers | where: "paper-title", page.title %}
+{% assign paper = paper[0] %}
+
+<head>
+<title>{{paper.page-title}}</title>
+</head>
+
+<body>
+	<div id="content">
+		<div id="content-inner">
+
+		<div class="section head">
+			<h1>{{paper.paper-title}}</h1>
+			<div class="authors">
+				{% for author in paper.paper-authors %}
+				
+				{% if author.style %}
+					<b style="{{author.style}}">	
+				{% else %}
+					<b style="margin-right: 30px">
+				{% endif %}
+					{% if author.link %}
+						<a href="{{author.link}}">{{author.name}}</a>
+					{% else %}
+						{{author.name}}
+					{% endif %}
+					<sup>
+					{% for insti in author.institutions %}
+						{% if forloop.last == true %}
+							{{insti}}
+						{% else %}
+							{{insti}},
+						{% endif %}
+					{% endfor %}
+					</b>
+				
+
+				{% if author.break-line %}
+					<br />
+				{% endif %}	
+
+				{% endfor %}
+			</div>
+
+			<div class="affiliations">
+				{% for insti in paper.institutions %}
+					<span style="margin-right: 30px"> {{forloop.index}}. {{insti.name}} </span>
+				{% endfor %}
+			</div>
+
+			<div class="venue">{{paper.paper-pub-short}}</div>
+		</div>
+
+		{% if paper.teaser %}
+		<center><img src={{paper.teaser | replace: paper.project-root, ""}} border="0" width="90%"></center>
+		{% endif %}	
+		{% if paper.teaser-text %}
+		<center><div class="section abstract"><p>{{paper.teaser-text}}</p></div></center>
+		{% endif %}	
+		
+		{% if paper.abstract %}
+		<div class="section abstract">
+			<h2>Abstract</h2>
+			<br>
+			<p>{{paper.abstract}}
+			</p>
+      	</div>
+		<br/>
+		{% endif %}
+
+		{% if paper.results.size %}
+		<div class="section materials">
+			<h2>Some Results</h2>
+			{% for result in paper.results %}
+			<div class="section materials">
+				<h3>{{result.name}}</h3>
+				<center>
+					<div class="text-center">
+						{% if result.type == "video" %}
+						<video width="700" height="400" playsinline="" autoplay="" loop="" preload="" muted=""> 
+							<source src="{{result.src}}" type="video/mp4">
+						</video>
+						{% elsif result.type == "img" %}
+						<img src="{{result.src}}" border="0" width="80%">
+						{% endif %}
+					</div>
+				</center>
+			</div>
+			{% endfor %}
+		</div>
+		{% endif %}
+
+		{% if paper.downloads.size %}
+		<div class="section materials">
+			<h2>Downloads</h2>
+			{% for download in paper.downloads %}
+			<div class="section materials">
+				<h3><a href="{{download.link | replace: paper.project-root, ""}}" target="_blank" rel="noopener">
+					{{download.name}}</a></h3>
+				<center>
+					<div class="text-center">
+						<a href="{{download.link | replace: paper.project-root, ""}}" target="_blank" rel="noopener">
+							{% if download.type == "video" %}
+							<video width="700" height="400" controls> 
+								<source src="{{result.src}}" type="video/mp4">
+							</video>
+							{% elsif download.type == "img" %}
+							<img src="{{download.src}}" border="0" width="80%">
+							{% endif %}
+						</a>
+					</div>
+				</center>
+			</div>
+			{% endfor %}
+		</div>
+		{% endif %}
+
+		{% if paper.citation %}
+		<div class="section citation">
+			<h2>Citation</h2>
+			<div class="section bibtex">
+	  		<pre>{{paper.citation}}</pre>
+	  		</div>
+	  	</div>
+		{% endif %}
+
+</body>
+</html>
+{% endif %}
