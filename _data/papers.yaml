@@ -36,7 +36,7 @@
 
   paper-pub: Siggraph Real-Time Live 2020
   link-video: https://www.youtube.com/watch?v=NT_2M3h6sL4
-  link-projectpage: projects/VolTele/index.html
+  # link-projectpage: projects/VolTele/index.html
 
   # for project page
   project-root: "projects/VolTele/"
