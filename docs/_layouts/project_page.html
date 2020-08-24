@@ -73,7 +73,7 @@
 		</div>
 
 		{% if paper.teaser %}
-		<center><img src={{paper.teaser | replace: paper.project-root, ""}} border="0" width="90%"></center>
+		<center><img src={{paper.teaser | replace: paper.project-root, ''}} border="0" width="90%"></center>
 		{% endif %}	
 		{% if paper.teaser-text %}
 		<center><div class="section abstract">
@@ -119,23 +119,25 @@
 			<h2>Downloads</h2>
 			{% for download in paper.downloads %}
 			<div class="section materials">
-				<h3><a href="{{download.link | replace: paper.project-root, ""}}" target="_blank" rel="noopener">
+				<h3><a href="{{download.link | replace: paper.project-root, ''}}" target="_blank" rel="noopener">
 					{{download.name}}</a></h3>
-				<center>
-					<div class="text-center">
-						<a href="{{download.link | replace: paper.project-root, ""}}" target="_blank" rel="noopener">
-							{% if download.type == "video" %}
-							<video width="700" height="400" controls> 
-								<source src="{{result.src}}" type="video/mp4">
-							</video>
-							{% elsif download.type == "img" %}
-							<img src="{{download.src}}" border="0" width="80%">
-							{% elsif result.type == "youtube" %}
-							<iframe width="700" height="400" src="{{result.src}}" frameborder="0" allowfullscreen></iframe>
-							{% endif %}
-						</a>
-					</div>
-				</center>
+				{% if download.type %}
+					<center>
+						<div class="text-center">
+							<a href="{{download.link | replace: paper.project-root, ''}}" target="_blank" rel="noopener">
+								{% if download.type == "video" %}
+								<video width="700" height="400" controls> 
+									<source src="{{download.src}}" type="video/mp4">
+								</video>
+								{% elsif download.type == "img" %}
+								<img src="{{download.src}}" border="0" width="80%">
+								{% elsif download.type == "youtube" %}
+								<iframe width="700" height="400" src="{{download.src}}" frameborder="0" allowfullscreen></iframe>
+								{% endif %}
+							</a>
+						</div>
+					</center>
+				{% endif %}
 			</div>
 			{% endfor %}
 		</div>
