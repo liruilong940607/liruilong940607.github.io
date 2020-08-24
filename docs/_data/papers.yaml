@@ -35,6 +35,7 @@
     - name: Pinscreen
 
   paper-pub: European Conference on Computer Vision (ECCV, 2020)
+  link-arxiv: https://arxiv.org/abs/2007.13988.pdf
   link-video: https://www.youtube.com/watch?v=zxxDSagoKKo
   link-projectpage: https://project-splinter.github.io/monoport
 
@@ -76,8 +77,10 @@
     - name: Pinscreen
 
   paper-pub: Siggraph Real-Time Live 2020
+  link-arxiv: https://arxiv.org/abs/2007.13988.pdf
   link-video: https://www.youtube.com/watch?v=NT_2M3h6sL4
   link-projectpage: https://project-splinter.github.io/monoport
+  link-gitcode: https://github.com/Project-Splinter/MonoPort/
 
 
 # ---------------------------------------------------------------
@@ -152,7 +155,7 @@
   link-arxiv: https://arxiv.org/pdf/2004.03458.pdf
   link-projectpage: https://vgl.ict.usc.edu/Research/Deep3DMM/
   link-video: https://vgl.ict.usc.edu/Research/Deep3DMM/videos/teaser_video_cvpr2020.mp4
-
+  link-gitcode: https://github.com/ICT-VGL/ICT-FaceKit
 
 # ---------------------------------------------------------------
 # Deep Portrait Image Completion and Extrapolation

@@ -104,3 +104,5 @@ venv.bak/
 .mypy_cache/
 
 .DS_Store
+docs/.sass-cache/
+docs/_site/
