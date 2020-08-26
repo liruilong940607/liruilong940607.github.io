@@ -5,11 +5,11 @@
   paper-logo: "https://project-splinter.github.io/monoport/figures/dance.gif"
   paper-title: "Monocular Real-Time Volumetric Performance Capture"
   paper-authors: 
-    - name: <b>Ruilong Li</b>
+    - name: <b>Ruilong Li*</b>
       link: http://www.liruilong.cn/
       institutions: [1, 2]
     
-    - name: Yuliang Xiu
+    - name: Yuliang Xiu*
       link: http://xiuyuliang.cn/
       institutions: [1, 2]
     
