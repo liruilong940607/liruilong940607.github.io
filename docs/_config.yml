@@ -15,13 +15,13 @@ sass:
     style: compressed
     sass_dir: _sass
 
-nav:
- - name: "About"
-   link: ""
- - name: "Resume"
-   link: "files/resume.pdf"
- # - name: "Publications"
- #   link: "full_pubs"
+# nav:
+#  - name: "About"
+#    link: ""
+#  - name: "Resume"
+#    link: "files/resume.pdf"
+#  - name: "Publications"
+#    link: "full_pubs"
 
 exclude: ["deploy.sh"]
 
