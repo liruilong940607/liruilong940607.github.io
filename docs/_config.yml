@@ -9,7 +9,7 @@ tracking_id: #
 
 footer: yes
 footer_url: ""
-footer_text: "Last update: May, 2020"
+footer_text: "Last update: August, 2021"
 
 sass:
     style: compressed
@@ -36,4 +36,6 @@ webs:
   Jue_Wang: http://www.juew.org/
   Fang-Lue_Zhang: http://ecs.victoria.ac.nz/Main/FanglueZhang/
   Haozhi_Huang: https://www.linkedin.com/in/haozhi-huang-65430880/
-  VGL: https://vgl.ict.usc.edu/
+  BAIR: bair.berkeley.edu
+  Angjoo_Kanazawa: http://people.eecs.berkeley.edu/~kanazawa/
+  Christoph_Lassner: https://christophlassner.de/

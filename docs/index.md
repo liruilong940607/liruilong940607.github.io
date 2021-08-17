@@ -5,12 +5,12 @@ layout: default
 <tr>
     <td><img class="profile-picture" src="files/photo.jpg"></td>
     <td><div class="profile-doc">
-		2nd Year Ph.D. Student @ USC<br> 
-		<a href="{{site.webs.VGL}}" target="_blank" rel="noopener">ICT Vision & Graphics Lab</a> <br>
-		Advised by <a href="{{site.webs.Hao_Li}}" target="_blank" rel="noopener">Prof. Hao Li</a><br> 
+		Ph.D. Student @ UC Berkeley<br> 
+		<a href="{{site.webs.BAIR}}" target="_blank" rel="noopener">Berkeley Artifical Intelligence Research (BAIR)</a> <br>
+		Advised by <a href="{{site.webs.Angjoo_Kanazawa}}" target="_blank" rel="noopener">Angjoo Kanazawa</a><br> 
 		<br> 
 		<a href="mailto:ruilongl@usc.edu">
-			<i class="fa fa-envelope" aria-hidden="true"></i> ruilongl at usc.edu </a> <br> 
+			<i class="fa fa-envelope" aria-hidden="true"></i> ruilongli at berkeley.edu </a> <br> 
 		<a href="https://github.com/liruilong940607">
 			<i class="fa fa-github" aria-hidden="true"></i> Github </a> <br> 
 		<a href="https://scholar.google.com/citations?user=Pz8G-koAAAAJ&hl=en">
@@ -27,11 +27,11 @@ layout: default
 ## About Me
 
 <p>
-I'm now a second-year Ph.D student in <a href="{{site.webs.VGL}}" target="_blank" rel="noopener">Vision and Graphics Lab</a> @ USC, California, USA, working with <a href="{{site.webs.Hao_Li}}" target="_blank" rel="noopener">Hao Li</a>. I'm also a student researcher at <a href="https://research.google/" target="_blank" rel="noopener">Google Research</a>, working with <a href="http://www.cs.unc.edu/~alexyang/" target="_blank" rel="noopener">Shan Yang</a> and <a href="https://people.eecs.berkeley.edu/~kanazawa/" target="_blank" rel="noopener">Angjoo Kanazawa</a>.
+I'm a first-year Ph.D. student in the Department of EECS at UC Berkeley and a member of <a href="{{site.webs.BAIR}}" target="_blank" rel="noopener">BAIR</a>, advised by Prof. <a href="{{site.webs.Angjoo_Kanazawa}}" target="_blank" rel="noopener">Angjoo Kanazawa</a>. I'm also currently a student researcher at Facebook Reality Labs (FRL) working with <a href="{{site.webs.Christoph_Lassner}}" target="_blank" rel="noopener">Chirstoph Lassner</a>.
+<br> <br> 
+Previously, I had the pleasure to be a research assistant at <a href="{{site.webs.VGL}}" target="_blank" rel="noopener">Vision &amp; Graphics Lab</a> at USC ICT for 2 years, collaborating with Prof. <a href="{{site.webs.Hao_Li}}" target="_blank" rel="noopener">Hao Li</a>. I obtained my B.Sc. degree in <b>Physics and Mathematics</b> and M.Sc. degree in <b>Computer Science</b> at Tsinghua University, where I worked closely with Prof.  <a href="{{site.webs.Shi-Min_Hu}}" target="_blank" rel="noopener">Shi-Min Hu</a> and Prof. <a href="{{site.webs.Song-Hai_Zhang}}" target="_blank" rel="noopener">Song-Hai Zhang</a>. I've been interned at Google Research, Facebook Reality Labs, and Bytedance AI Lab.
+<br> <br> 
 My current research interests lie in the intersection field of Computer Vision and Computer Graphics, especially on the tasks of <b>generation and reconstruction in the 3D world</b> via information from 2D images. 
-Previously, I spent 7 beautiful years (2012-2019) in <b>Tsinghua University</b>, from where I received my B.Sc. degree in <b>Physics and Mathematics</b> (2016) and M.Sc. degree in <b>Computer Science</b> (2019). I miss my days being part of the <a href="{{site.webs.CSCG}}" target="_blank" rel="noopener">Graphics &amp; Geometric Computing Group</a> of Tsinghua University, working with <a href="{{site.webs.Shi-Min_Hu}}" target="_blank" rel="noopener">Prof. Shi-Min Hu</a> and <a href="{{site.webs.Song-Hai_Zhang}}" target="_blank" rel="noopener">Prof. Song-Hai Zhang</a>.
-My previous researches were mainly focusing on the basic problems in Computer Vision such as <b>Segmenation</b>, <b>Pose Estimation</b> and <b>Image Generation</b>. 
-
 <br> <br> 
 
 <br>

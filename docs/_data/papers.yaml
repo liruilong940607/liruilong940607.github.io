@@ -1,4 +1,81 @@
 # ---------------------------------------------------------------
+# PlenOctrees for Real-time Rendering of Neural Radiance Fields
+# ---------------------------------------------------------------
+- year: "2021"
+  paper-logo: "https://drive.google.com/uc?export=view&id=1nFT3UlTtAZipUmzi4WL8Pj7vdEeCFrSJ"
+  paper-title: "PlenOctrees for Real-time Rendering of Neural Radiance Fields"
+  paper-authors: 
+    - name: Alex Yu
+      link: https://alexyu.net/
+      institutions: [1]
+    
+    - name: <b>Ruilong Li</b>
+      link: http://www.liruilong.cn/
+      institutions: [1, 2]
+    
+    - name: Matthew Tancik
+      link: https://www.matthewtancik.com/
+      institutions: [1]
+      
+    - name: Hao Li
+      link: https://www.hao-li.com/
+      institutions: [1, 3]
+    
+    - name: Ren Ng
+      link: https://www2.eecs.berkeley.edu/Faculty/Homepages/yirenng.html
+      institutions: [1]
+    
+    - name: Angjoo Kanazawa
+      link: https://people.eecs.berkeley.edu/~kanazawa/
+      institutions: [1]
+
+  institutions: 
+    - name: UC Berkeley
+    - name: USC Institute for Creative Technology
+    - name: Pinscreen
+
+  paper-pub: International Conference on Computer Vision (ICCV, 2021) <strong style="color:red;">[Oral]</strong>
+  link-arxiv: https://arxiv.org/abs/2103.14024
+  link-video: https://www.youtube.com/watch?v=obrmH1T5mfI
+  link-projectpage: https://alexyu.net/plenoctrees/
+  link-gitcode: https://github.com/sxyu/plenoctree
+
+# ---------------------------------------------------------------
+# AI Choreographer: Music Conditioned 3D Dance Generation with AIST++
+# ---------------------------------------------------------------
+- year: "2021"
+  paper-logo: "https://google.github.io/aichoreographer/assets/teaser_ani.gif"
+  paper-title: "AI Choreographer: Music Conditioned 3D Dance Generation with AIST++"
+  paper-authors: 
+    - name: <b>Ruilong Li*</b>
+      link: http://www.liruilong.cn/
+      institutions: [1, 2]
+    
+    - name: Shan Yang*
+      link: https://shanyang.me/
+      institutions: [2]
+    
+    - name: David A. Ross
+      link: http://www.cs.toronto.edu/~dross/
+      institutions: [2]
+      
+    - name: Angjoo Kanazawa
+      link: https://people.eecs.berkeley.edu/~kanazawa/
+      institutions: [2, 3]
+
+  institutions: 
+    - name: University of Southern California
+    - name: Google Research
+    - name: UC Berkeley
+
+  paper-pub: International Conference on Computer Vision (ICCV, 2021)
+  link-arxiv: https://arxiv.org/abs/2101.08779
+  link-video: https://www.youtube.com/watch?v=VrVsAcgFK_4
+  link-projectpage: https://google.github.io/aichoreographer/
+  link-gitcode: https://github.com/google-research/mint
+
+
+# ---------------------------------------------------------------
 # Monocular Real-Time Volumetric Performance Capture
 # ---------------------------------------------------------------
 - year: "2020"
