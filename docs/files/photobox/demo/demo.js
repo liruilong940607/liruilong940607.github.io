@@ -6,7 +6,7 @@
 !(function(){
     'use strict';
 
-	var dir = "./photos_small/";
+	var dir = "https://people.eecs.berkeley.edu/~ruilongli/photobox/photos_small/";
 	var fileextension = ".JPG";
 	var gallery = $('#gallery');
 	// console.log($.find("a:contains(" + fileextension + ")"))
