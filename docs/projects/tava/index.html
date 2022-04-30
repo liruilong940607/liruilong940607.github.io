@@ -1,0 +1,317 @@
+<DOCTYPE html>
+    <title>TAVA: Template-free Animatable Volumetric Actors</title>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Project Page for TAVA">
+        <meta name="author" content="Ruilong">
+
+        <meta property="og:image" content="https://www.liruilong.cn/projects/tava/assets/web_preview.png">
+        <meta property="og:url" content="https://www.liruilong.cn/projects/tava"> <!-- TODO -->
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="TAVA: Template-free Animatable Volumetric Actors.">
+        <!-- <meta property="og:video" content="https://www.youtube.com/embed/VrVsAcgFK_4"> -->
+        <meta property="og:description" content="TAVA: Template-free Animatable Volumetric Actors.">
+    </head>
+    <style>
+        /* greek-ext */
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2) format('woff2');
+            unicode-range: U+1F00-1FFF;
+        }
+
+        /* greek */
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2) format('woff2');
+            unicode-range: U+0370-03FF;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* greek-ext */
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');
+            unicode-range: U+1F00-1FFF;
+        }
+
+        /* greek */
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');
+            unicode-range: U+0370-03FF;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <body>
+        <div class="container">
+            <br>
+            <div class="row mb-2 mt-4" id="paper-title">
+                <h2 class="col-md-12 text-center">
+                    <b>TAVA: </b>Template-free Animatable Volumetric Actors
+                </h2>
+            </div>
+
+            <div class="row" id="authors">
+                <div class="mx-auto text-center" style="font-size:20px">
+                    <ul class="list-inline mb-sm-0">
+                        <li class="list-inline-item">
+                            <a href="https://www.liruilong.cn/">Ruilong Li</a><sup>1,3</sup>
+
+                        <li class="list-inline-item">
+                            <a
+                                href="https://scholar.google.com/citations?hl=en&user=eVHCoTsAAAAJ&view_op=list_works&sortby=pubdate">
+                                Julian Tanke
+                            </a><sup>2,3</sup>
+                        <li class="list-inline-item">
+                            <a href="https://minhpvo.github.io/">Minh Vo</a><sup>3</sup>
+                        <li class="list-inline-item">
+                            <a href="https://zollhoefer.com/">Michael Zollhoefer</a><sup>3</sup>
+                    </ul>
+                    <ul class="list-inline mb-sm-0">
+                        <li class="list-inline-item">
+                            <a href="https://pages.iai.uni-bonn.de/gall_juergen/">Jurgen Gall</a><sup>2</sup>
+                        <li class="list-inline-item">
+                            <a href="https://people.eecs.berkeley.edu/~kanazawa/">Angjoo Kanazawa</a><sup>1</sup>
+                        <li class="list-inline-item">
+                            <a href="https://christophlassner.de/">Christoph Lassner</a><sup>3</sup>
+                    </ul>
+                    <br>
+                    <p id="institution">
+                        <sup>1</sup>UC Berkeley &nbsp;&nbsp;&nbsp;&nbsp;
+                        <sup>2</sup>University of Bonn &nbsp;&nbsp;&nbsp;&nbsp;
+                        <sup>3</sup>Meta Reality Labs Research
+                    </p>
+                </div>
+            </div>
+            <div class="row mb-2" id="links">
+                <div class="mx-auto">
+                    <ul class="nav">
+                        <li class="nav-item text-center">
+                            <a href="https://arxiv.org/abs/TODO" class="nav-link">
+                                <svg style="width:64px;height:64px" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M16 0H8C6.9 0 6 .9 6 2V18C6 19.1 6.9 20 8 20H20C21.1 20 22 19.1 22 18V6L16 0M20 18H8V2H15V7H20V18M4 4V22H20V24H4C2.9 24 2 23.1 2 22V4H4M10 10V12H18V10H10M10 14V16H15V14H10Z" />
+                                </svg><br>
+                                Paper
+                            </a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a href="https://github.com/facebookresearch/tava" class="nav-link">
+                                <svg style="width:64px;height:64px" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+                                </svg><br>
+                                Code
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mb-3 pt-2">
+                <div class="col-md-8 mx-auto">
+                    <div class="row no-gutters pb-2">
+                        <div class="col-md-12">
+                            <span></span><img src="assets/teaser.png" class="img-responsive">
+                        </div>
+                    </div>
+                    <p class="text-justify">
+                        <b>Method Overview.</b> Given multiple sparse video views as well as 3D poses as inputs, TAVA
+                        creates a virtual actor consists of implicit shape, apperance, skinning weights in the canonical
+                        space, which is ready to be animated and rendered even with out-of-distribution poses.
+                        Dense correspondences across views and poses can also be established, which enables content
+                        editing during rendering. Without requiring body template, Our method can be directly used for
+                        creatures beyond human as along as the skeleton can be defined.
+                    </p>
+
+                </div>
+            </div>
+            <!-- <div class="row mb-4" id="overview-video">
+                <div class="col-md-8 mx-auto grey-container">
+                    <h4 class="pb-2"><strong>Paper Overview</strong></h4>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src=""
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div> -->
+            <div class="row mb-4">
+                <div class="col-md-8 mx-auto">
+                    <h4><strong>Section I. Novel-Pose Rendering with Dance Motion.</strong></h4>
+                    <div>
+                        <p class="text-justify">
+                            In the video below, we show a demo of reposing multiple learnt actors (left)
+                            using the same motion sequence from
+                            <a href="https://google.github.io/aistplusplus_dataset/index.html" target="_blank">
+                                AIST++ Dance Motion Dataset</a> (right), in which the poses
+                            are novel poses and <em>out-of-distribution</em> of the training ones.
+                        </p>
+
+                        <video style="width:100%" loop muted controls autoplay>
+                            <source src="assets/aist.mp4" type="video/mp4">
+                        </video>
+                        <p class="text-justify" style="font-size: 14px">
+                            <i>* The bended back in our rendering results
+                                come from the
+                                inaccurate AIST++ motion estimation.</i>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-8 mx-auto">
+                    <br>
+                    <h4><strong>Section II. Dense Correspondences.</strong></h4>
+                    <div>
+                        <p class="text-justify">
+                            In the following videos, we show our results of dense sorrespondences. The colors indicates
+                            the canonical correspondences of each pixel.
+                        </p>
+                        <video style="width:100%" loop muted controls autoplay>
+                            <source src="assets/zju_corr.mp4" type="video/mp4">
+                        </video>
+                        <video style="width:100%" loop muted controls autoplay>
+                            <source src="assets/annimal_corr.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="col-md-8 mx-auto">
+                    <br>
+                    <h4><strong>Section III. Comparisons with Other Methods.</strong></h4>
+                    <div>
+                        <p class="text-justify">
+                            In the following videos, we show comparisons between our method and different
+                            baselines on the task of <em>novel-pose synthesis</em> using a sequence of poses
+                            never seen during training.
+                        </p>
+                        <p class="text-justify">
+                            * "Ours (robust)" denotes our results with shading factorized out, thus is more robust to
+                            novel pose rendering.
+                        </p>
+                        <p class="text-justify">
+                            * Both "Animatable-NeRF" and "NeuralBody" require SMPL body templates while other
+                            approaches don't.
+                        </p>
+                        <video style="width:100%" loop muted controls autoplay>
+                            <source src="assets/313_pose_ref.mp4" type="video/mp4">
+                        </video>
+
+                        <video style="width:100%" loop muted controls autoplay>
+                            <source src="assets/315_pose_ref.mp4" type="video/mp4">
+                        </video>
+
+                        <video style="width:100%" loop muted controls autoplay>
+                            <source src="assets/comp_hare.mp4" type="video/mp4">
+                        </video>
+
+                        <video style="width:100%" loop muted controls autoplay>
+                            <source src="assets/comp_wolf.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+
+            </div>
+            <!-- <div class="row mb-2">
+                <div class="col-md-8 mx-auto">
+                    <h4 class="mb-3">Bibtex</h4>
+                    <div class="bibtex">@misc{li2021learn,
+                        title={AI Choreographer: Music Conditioned 3D Dance Generation with AIST++},
+                        author={Ruilong Li and Shan Yang and David A. Ross and Angjoo Kanazawa},
+                        year={2021},
+                        booktitle={ICCV}
+                        }</div>
+                </div>
+            </div> -->
+            <div class="row mb-3">
+                <div class="col-md-8 mx-auto">
+                    <h4><strong>More Thanks</strong></h4>
+                    <p class="text-justify">
+                        We thank
+                        <a href="https://people.eecs.berkeley.edu/~hangg/" target="_black">Hang Gao</a>,
+                        <a href="https://alexyu.net/" target="_black">Alex Yu</a>,
+                        <a href="https://www.matthewtancik.com/" target="_black">Matthew Tancik</a> and
+                        <a href="https://pengsida.net/" target="_black">Sida Peng</a>
+                        for helpful discussions.
+                        We also thank the authors of
+                        <a href="https://arxiv.org/abs/2103.13415" target="_black">Mip-NeRF</a> and
+                        <a href="https://arxiv.org/abs/2104.03953" target="_black">SNARF</a>
+                        for the amazing works which inspires this work.
+                        This website is inspired by the template of <a href="https://google.github.io/aichoreographer/"
+                            target="_blank">aichoreographer</a>.
+                    </p>
+                </div>
+            </div>
+            <!-- <div class="row mb-4" id="license">
+                <div class="col-md-8 mx-auto grey-container">
+                    <br>
+                    <p class="text-justify">
+                        Learn To Dance assets are Copyright 2021 Google LLC, licensed under the CC-BY 4.0 license.
+                    </p>
+                </div>
+            </div> -->
+
+        </div> <!-- container -->
+    </body>
+
+</DOCTYPE>
