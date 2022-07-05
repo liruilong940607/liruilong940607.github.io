@@ -1,4 +1,49 @@
 # ---------------------------------------------------------------
+# TAVA
+# ---------------------------------------------------------------
+- year: "2022"
+  paper-logo: "https://drive.google.com/uc?export=view&id=1WCSGgJK427jvEMr2PDK29ca5-xCbFfNy"
+  paper-title: "TAVA: Template-free Animatable Volumetric Actors"
+  paper-authors: 
+    - name: <b>Ruilong Li</b>
+      link: http://www.liruilong.cn/
+      institutions: [1, 3]
+    
+    - name: Julian Tanke
+      link: https://scholar.google.com/citations?hl=en&user=eVHCoTsAAAAJ&view_op=list_works&sortby=pubdate
+      institutions: [2, 3]
+      
+    - name: Minh Vo
+      link: https://minhpvo.github.io/
+      institutions: [3]
+    
+    - name: Michael Zollhoefer
+      link: https://zollhoefer.com/
+      institutions: [3]
+    
+    - name: Jurgen Gall
+      link: https://pages.iai.uni-bonn.de/gall_juergen/
+      institutions: [2]
+    
+    - name: Angjoo Kanazawa
+      link: https://people.eecs.berkeley.edu/~kanazawa/
+      institutions: [1]
+    
+    - name: Christoph Lassner
+      link: https://christophlassner.de/
+      institutions: [3]
+
+  institutions: 
+    - name: UC Berkeley
+    - name: University of Bonn
+    - name: Meta Reality Labs Research
+
+  paper-pub: European Conference on Computer Vision (ECCV, 2022)
+  link-arxiv: https://arxiv.org/pdf/2206.08929
+  link-projectpage: https://www.liruilong.cn/projects/tava/
+  link-gitcode: https://github.com/facebookresearch/tava
+
+# ---------------------------------------------------------------
 # PlenOctrees for Real-time Rendering of Neural Radiance Fields
 # ---------------------------------------------------------------
 - year: "2021"
