@@ -1,3 +1,4 @@
+
 # ---------------------------------------------------------------
 # NerfAcc
 # ---------------------------------------------------------------
@@ -25,6 +26,65 @@
   link-projectpage: http://nerfacc.com/
   link-gitcode: https://github.com/KAIR-BAIR/nerfacc
 
+# ---------------------------------------------------------------
+# Nerfstudio
+# ---------------------------------------------------------------
+- year: "2022"
+  paper-logo: "https://docs.nerf.studio/en/latest/_images/logo.png"
+  paper-title: "Nerfstudio: A collaboration friendly studio for NeRFs."
+  paper-authors: 
+    - name: Matthew Tancik*
+      link: https://www.matthewtancik.com/
+      institutions: []
+
+    - name: Ethan Weber*
+      link: https://ethanweber.me/
+      institutions: []
+    
+    - name: Evonne Ng*
+      link: http://people.eecs.berkeley.edu/~evonne_ng/
+      institutions: []
+    
+    - name: <b>Ruilong Li</b>
+      link: http://www.liruilong.cn/
+      institutions: []
+    
+    - name: Brent Yi
+      link: https://brentyi.com/
+      institutions: []
+
+    - name: Terrance Wang
+      link: https://www.linkedin.com/in/terrance-wang
+      institutions: []
+
+    - name: Alexander Kristoffersen
+      link: https://akristoffersen.com/
+      institutions: []
+
+    - name: Jake Austin
+      institutions: []
+
+    - name: Kamyar Salahi
+      link: https://kamyar.io/
+      institutions: []
+
+    - name: Abhik Ahuja
+      link: https://www.linkedin.com/in/abhik-ahuja
+      institutions: []
+
+    - name: David McAllister
+      link: https://mcallisterdavid.com/
+      institutions: []
+
+    - name: Angjoo Kanazawa
+      link: https://people.eecs.berkeley.edu/~kanazawa/
+      institutions: []
+    
+  institutions: 
+    - name: UC Berkeley
+
+  link-projectpage: https://docs.nerf.studio/
+  link-gitcode: https://github.com/nerfstudio-project/nerfstudio
 
 # ---------------------------------------------------------------
 # TAVA
