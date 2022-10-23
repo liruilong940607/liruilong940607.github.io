@@ -1,4 +1,32 @@
 # ---------------------------------------------------------------
+# NerfAcc
+# ---------------------------------------------------------------
+- year: "2022"
+  paper-logo: "https://www.nerfacc.com/en/latest/_static/images/logo4x.png"
+  paper-title: "NerfAcc: A General NeRF Acceleration Toolbox"
+  paper-authors: 
+    - name: <b>Ruilong Li</b>
+      link: http://www.liruilong.cn/
+      institutions: []
+    
+    - name: Matthew Tancik
+      link: https://www.matthewtancik.com/
+      institutions: []
+
+    - name: Angjoo Kanazawa
+      link: https://people.eecs.berkeley.edu/~kanazawa/
+      institutions: []
+    
+  institutions: 
+    - name: UC Berkeley
+
+  paper-pub: arXiv 2022
+  link-arxiv: https://arxiv.org/pdf/2210.04847
+  link-projectpage: http://nerfacc.com/
+  link-gitcode: https://github.com/KAIR-BAIR/nerfacc
+
+
+# ---------------------------------------------------------------
 # TAVA
 # ---------------------------------------------------------------
 - year: "2022"
