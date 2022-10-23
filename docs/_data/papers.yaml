@@ -21,9 +21,8 @@
   institutions: 
     - name: UC Berkeley
 
-  paper-pub: arXiv 2022
   link-arxiv: https://arxiv.org/pdf/2210.04847
-  link-projectpage: http://nerfacc.com/
+  link-projectpage: https://www.nerfacc.com/
   link-gitcode: https://github.com/KAIR-BAIR/nerfacc
 
 # ---------------------------------------------------------------
