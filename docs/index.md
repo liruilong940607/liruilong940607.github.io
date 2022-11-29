@@ -57,7 +57,7 @@ My current research interests lie in the intersection field of Computer Vision a
 	{% if paper.paper-logo-mp4 %}
     <td>
 		<div class="paper-logo">
-		<video width="100%" height="100%" muted autoplay loop>
+		<video width="80%" height="80%" muted autoplay loop>
 			<source src="{{paper.paper-logo-mp4}}" type="video/mp4">
 			Your browser does not support the video tag.
 		</video>
