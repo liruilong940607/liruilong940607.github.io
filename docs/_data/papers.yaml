@@ -1,5 +1,41 @@
 
 # ---------------------------------------------------------------
+# Dycheck
+# ---------------------------------------------------------------
+- year: "2022"
+  paper-logo-mp4: "https://hangg7.com//assets/dycheck_after.mp4"
+  paper-title: "Monocular Dynamic View Synthesis: A Reality Check"
+  paper-authors: 
+    - name: Hang Gao
+      link: https://hangg7.com/
+      institutions: [1]
+  
+    - name: <b>Ruilong Li</b>
+      link: http://www.liruilong.cn/
+      institutions: [1]
+  
+    - name: Shubham Tulsiani
+      link: https://shubhtuls.github.io/
+      institutions: [2]
+    
+    - name: Bryan Russell
+      link: https://bryanrussell.org/
+      institutions: [3]
+
+    - name: Angjoo Kanazawa
+      link: https://people.eecs.berkeley.edu/~kanazawa/
+      institutions: [1]
+    
+  institutions: 
+    - name: UC Berkeley
+    - name: CMU
+    - name: Adobe Research
+
+  link-arxiv: https://arxiv.org/abs/2210.13445
+  link-projectpage: https://hangg7.com/dycheck/
+  link-gitcode: https://github.com/KAIR-BAIR/dycheck/
+
+# ---------------------------------------------------------------
 # NerfAcc
 # ---------------------------------------------------------------
 - year: "2022"

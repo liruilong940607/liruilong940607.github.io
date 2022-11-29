@@ -51,7 +51,19 @@ My current research interests lie in the intersection field of Computer Vision a
 {% for paper in year.items %}
 <table class="paper-list">
   <tr>
+  	{% if paper.paper-logo %}
     <td><img class="paper-logo" src="{{paper.paper-logo}}"></td>
+	{% endif %}
+	{% if paper.paper-logo-mp4 %}
+    <td>
+		<div class="paper-logo">
+		<video width="100%" height="100%" muted autoplay loop>
+			<source src="{{paper.paper-logo-mp4}}" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		</div>
+	</td>
+	{% endif %}
     <td>
 		<p class="paper-title">{{paper.paper-title}}</p>  
 		<p class="paper-authors">
