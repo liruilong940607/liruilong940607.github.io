@@ -40,7 +40,7 @@
 # NerfAcc
 # ---------------------------------------------------------------
 - year: "2022"
-  paper-logo: "https://www.nerfacc.com/en/latest/_static/images/logo4x.png"
+  paper-logo: "https://github.com/nerfstudio-project/nerfacc/blob/master/docs/source/_static/images/logo4x.png?raw=true"
   paper-title: "NerfAcc: A General NeRF Acceleration Toolbox"
   paper-authors: 
     - name: <b>Ruilong Li</b>
@@ -66,7 +66,7 @@
 # Nerfstudio
 # ---------------------------------------------------------------
 - year: "2022"
-  paper-logo: "https://docs.nerf.studio/en/latest/_images/logo.png"
+  paper-logo: "https://github.com/nerfstudio-project/nerfstudio/blob/main/docs/_static/imgs/logo.png?raw=true"
   paper-title: "Nerfstudio: A collaboration friendly studio for NeRFs."
   paper-authors: 
     - name: Matthew Tancik*
