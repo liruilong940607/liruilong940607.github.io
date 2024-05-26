@@ -126,7 +126,7 @@
 # TAVA
 # ---------------------------------------------------------------
 - year: "2022"
-  paper-logo: "https://drive.google.com/uc?export=view&id=1WCSGgJK427jvEMr2PDK29ca5-xCbFfNy"
+  paper-logo: "https://drive.google.com/thumbnail?id=1WCSGgJK427jvEMr2PDK29ca5-xCbFfNy"
   paper-title: "TAVA: Template-free Animatable Volumetric Actors"
   paper-authors: 
     - name: <b>Ruilong Li</b>
@@ -171,7 +171,7 @@
 # PlenOctrees for Real-time Rendering of Neural Radiance Fields
 # ---------------------------------------------------------------
 - year: "2021"
-  paper-logo: "https://drive.google.com/uc?export=view&id=1nFT3UlTtAZipUmzi4WL8Pj7vdEeCFrSJ"
+  paper-logo: "https://drive.google.com/thumbnail?id=1nFT3UlTtAZipUmzi4WL8Pj7vdEeCFrSJ"
   paper-title: "PlenOctrees for Real-time Rendering of Neural Radiance Fields"
   paper-authors: 
     - name: Alex Yu
@@ -333,7 +333,7 @@
 # Learning Formation of Physically-Based Face Attributes
 # ---------------------------------------------------------------
 - year: "2020"
-  paper-logo: "https://drive.google.com/uc?export=view&id=1J1WO1-xUuSGE32t68HZ8AvdVjWg6pc8u"
+  paper-logo: "https://drive.google.com/thumbnail?id=1J1WO1-xUuSGE32t68HZ8AvdVjWg6pc8u"
   paper-title: "Learning Formation of Physically-Based Face Attributes"
   paper-authors: 
     - name: <b>Ruilong Li*</b>
@@ -407,7 +407,7 @@
 # Deep Portrait Image Completion and Extrapolation
 # ---------------------------------------------------------------
 - year: "2019"
-  paper-logo: "https://drive.google.com/uc?export=view&id=1FBJeQEf4IhoDp9UOIHmI_-zWIjcNmrBX"
+  paper-logo: "https://drive.google.com/thumbnail?id=1FBJeQEf4IhoDp9UOIHmI_-zWIjcNmrBX"
   paper-title: "Deep Portrait Image Completion and Extrapolation"
   paper-authors: 
     - name: Xian Wu
@@ -440,7 +440,7 @@
   paper-pub: "IEEE Transactions on Image Processing (TIP)"
   # link-pdf: "projects/PortraitCompletion/files/1808.07757.pdf"
   link-arxiv: "https://arxiv.org/abs/1808.07757.pdf"
-  link-supplementary: "https://drive.google.com/uc?export=view&id=1qbD7OAtRd5xxbRRVnDM4Ru2VKlbJiRed"
+  link-supplementary: "https://drive.google.com/thumbnail?id=1qbD7OAtRd5xxbRRVnDM4Ru2VKlbJiRed"
   link-projectpage: "project_pages/PortraitCompletion.html"
 
   # for project page
@@ -448,7 +448,7 @@
   paper-pub-short: IEEE Transactions on Image Processing 2019
   page-title: "PortraitCompletion"
   keywords: "image completion; portrait extrapolation; human parsing; deep learning;"
-  teaser: "https://drive.google.com/uc?export=view&id=11vOnsmDJHJ5-kXppvGjmD2uhaKc2fD0p"
+  teaser: "https://drive.google.com/thumbnail?id=11vOnsmDJHJ5-kXppvGjmD2uhaKc2fD0p"
   abstract: "General image completion and extrapolation methods often fail on portrait images where parts of the human body need to be recovered - a task that requires accurate human body structure and appearance synthesis. We present a two stage deep learning framework for tacking this problem. In the first stage, given a portrait image with an incomplete human body, we extract a complete, coherent human body structure through a human parsing network, which focuses on structure recovery inside the unknown region with the help of pose estimation. In the second stage, we use an image completion network to fill the unknown region, guided by the structure map recovered in the first stage. For realistic synthesis the completion network is trained with both perceptual loss and conditional adversarial loss. We evaluate our method on public portrait image datasets, and show that it outperforms other state-of-art general image completion methods. Our method enables new portrait image editing applications such as occlusion removal and portrait extrapolation. We further show that the proposed general learning framework can be applied to other types of images, e.g. animal images."
   
   downloads:
@@ -547,7 +547,7 @@
 # ---------------------------------------------------------------
 
 - year: "2019"
-  paper-logo: "https://drive.google.com/uc?export=view&id=1zEcU5r5OfHY65qZtMT5w3Q8rpddxYRPi"
+  paper-logo: "https://drive.google.com/thumbnail?id=1zEcU5r5OfHY65qZtMT5w3Q8rpddxYRPi"
   paper-title: "Pose2Seg: Detection Free Human Instance Segmentation"
   paper-authors: 
     - name: Song-Hai Zhang
@@ -597,7 +597,7 @@
   keywords: "pose; instance segmentation; alignment; dataset; human;"
   abstract: The standard approach to image instance segmentation is to perform the object detection first, and then segment the object from the detection bounding-box. More recently, deep learning methods like Mask R-CNN perform them jointly. However, little research takes into account the uniqueness of the "human" category, which can be well defined by the pose skeleton. Moreover, the human pose skeleton can be used to better distinguish instances with heavy occlusion than using bounding-boxes. In this paper, we present a brand new pose-based instance segmentation framework for humans which separates instances based on human pose, rather than proposal region detection. We demonstrate that our pose-based framework can achieve better accuracy than the state-of-art detection-based approach on the human instance segmentation problem, and can moreover better handle occlusion. <br><br> Furthermore, there are few public datasets containing many heavily occluded humans along with comprehensive annotations, which makes this a challenging problem seldom noticed by researchers. Therefore, in this paper we introduce a new benchmark "Occluded Human (OCHuman)", which focuses on occluded humans with comprehensive annotations including bounding-box, human pose and instance masks. This dataset contains 8110 detailed annotated human instances within 4731 images. With an average 0.67 MaxIoU for each person, OCHuman is the most complex and challenging dataset related to human instance segmentation. Through this dataset, we want to emphasize occlusion as a challenging problem for researchers to study.
 
-  teaser: "https://drive.google.com/uc?export=view&id=1Ak4yGnIKxLnnQDYK3lNDrWK3POo7qULs"
+  teaser: "https://drive.google.com/thumbnail?id=1Ak4yGnIKxLnnQDYK3lNDrWK3POo7qULs"
 
   downloads:
     - name: Paper
@@ -636,7 +636,7 @@
 # ---------------------------------------------------------------
 
 - year: "2019"
-  paper-logo: "https://drive.google.com/uc?export=view&id=1wrW9R2nGH8M4MPrVgbwzVhp-j6OVCgdd"
+  paper-logo: "https://drive.google.com/thumbnail?id=1wrW9R2nGH8M4MPrVgbwzVhp-j6OVCgdd"
   paper-title: "Example-Guided Style-Consistent Image Synthesis from Semantic Labeling"
   paper-authors: 
     - name: Miao Wang
@@ -668,7 +668,7 @@
   paper-pub: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR, 2019)"
   link-arxiv: "https://arxiv.org/abs/1906.01314.pdf"
   link-projectpage: "project_pages/GuidedPix2Pix.html"
-  link-supplementary: "https://drive.google.com/uc?export=view&id=1zk0stxJW1GC7Llnsq1iNcWd710zRwm_E"
+  link-supplementary: "https://drive.google.com/thumbnail?id=1zk0stxJW1GC7Llnsq1iNcWd710zRwm_E"
   link-gitcode: "https://github.com/cxjyxxme/pix2pixSC"
   
   # for project page
@@ -678,7 +678,7 @@
   keywords: "GAN; Transfer; Adversarial Networks;"
   abstract: "Example-guided image synthesis aims to synthesize an image from a semantic label map and an exemplary image indicating style. We use the term “style” in this problem to refer to implicit characteristics of images, for example: in portraits “style” includes gender, racial identity, age, hairstyle; in full body pictures it includes clothing; in street scenes it refers to weather and time of day and such like. A semantic label map in these cases indicates facial expression, full body pose, or scene segmentation. We propose a solution to the example-guided image synthesis problem using conditional generative adversarial networks with style consistency. Our key contributions are (i) a novel style consistency discriminator to determine whether a pair of images are consistent in style; (ii) an adaptive semantic consistency loss; and (iii) a training data sampling strategy, for synthesizing style-consistent results to the exemplar. We demonstrate the efficiency of our method on face, dance and street view synthesis tasks."
   
-  teaser: "https://drive.google.com/uc?export=view&id=1TpfZwR3WIofdxAm9R21TqZOJAMI6nrsD"
+  teaser: "https://drive.google.com/thumbnail?id=1TpfZwR3WIofdxAm9R21TqZOJAMI6nrsD"
 
   downloads:
     - name: Paper
@@ -687,9 +687,9 @@
       link: https://arxiv.org/abs/1906.01314.pdf
 
     - name: Supplementary
-      # src: https://drive.google.com/uc?export=view&id=12WF4l6WfANdEwbOlP7P_oSYCK_Ur2oW2
+      # src: https://drive.google.com/thumbnail?id=12WF4l6WfANdEwbOlP7P_oSYCK_Ur2oW2
       # type: img
-      link: https://drive.google.com/uc?export=view&id=1zk0stxJW1GC7Llnsq1iNcWd710zRwm_E
+      link: https://drive.google.com/thumbnail?id=1zk0stxJW1GC7Llnsq1iNcWd710zRwm_E
 
     - name: Code
       # src: images/code.png
@@ -708,7 +708,7 @@
 
 
 - year: "2018"
-  paper-logo: "https://drive.google.com/uc?export=view&id=1XyKhs6hjIytIvF1pfpGzeJWl7Muna18Z"
+  paper-logo: "https://drive.google.com/thumbnail?id=1XyKhs6hjIytIvF1pfpGzeJWl7Muna18Z"
   paper-title: "Detecting and Removing Visual Distractors for Video Aesthetic Enhancement"
   paper-authors: 
     - name: Fang-Lue Zhang
