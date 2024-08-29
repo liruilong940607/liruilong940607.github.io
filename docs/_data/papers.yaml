@@ -2,10 +2,10 @@
 # gsplat
 # ---------------------------------------------------------------
 - year: "2024"
-  paper-logo-mp4: "https://docs.gsplat.studio/main/_images/training.gif"
-  paper-title: "gsplat"
+  paper-logo: "https://www.liruilong.cn/projects/gsplat/logo.png"
+  paper-title: "gsplat: Efficient Gaussian Splatting CUDA Backend"
   paper-authors: 
-  institutions: 
+  institutions: UC Berkeley
   # link-arxiv: TODO
   link-projectpage: https://docs.gsplat.studio/
   # link-gitcode: TODO
@@ -15,7 +15,7 @@
 # NerfXL
 # ---------------------------------------------------------------
 - year: "2024"
-  paper-logo-mp4: "https://research.nvidia.com/labs/toronto-ai/nerfxl/assets/nerfxl-teaser-720P-trim.mp4"
+  paper-logo: "https://www.liruilong.cn/projects/nerfxl/teaser.gif"
   paper-title: "NeRF-XL: Scaling NeRFs with Multiple GPUs"
   paper-authors: 
     - name: <b>Ruilong Li</b>
@@ -131,9 +131,10 @@
   institutions: 
     - name: UC Berkeley
 
+  link-arxiv: https://arxiv.org/abs/2302.04264
   link-projectpage: https://docs.nerf.studio/
   link-gitcode: https://github.com/nerfstudio-project/nerfstudio
-  paper-pub: SIGGRAPH 2023
+  paper-pub: ACM Siggraph 2023
 
 # ---------------------------------------------------------------
 # Dycheck
