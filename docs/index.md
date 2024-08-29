@@ -29,7 +29,7 @@ layout: default
 ## About Me
 
 <p>
-I'm a 3rd-year Ph.D. student in the Department of EECS at UC Berkeley and a member of <a href="{{site.webs.BAIR}}" target="_blank" rel="noopener">BAIR</a>, advised by Prof. <a href="{{site.webs.Angjoo_Kanazawa}}" target="_blank" rel="noopener">Angjoo Kanazawa</a>. 
+I'm a 4th-year Ph.D. student in the Department of EECS at UC Berkeley and a member of <a href="{{site.webs.BAIR}}" target="_blank" rel="noopener">BAIR</a>, advised by Prof. <a href="{{site.webs.Angjoo_Kanazawa}}" target="_blank" rel="noopener">Angjoo Kanazawa</a>. 
 <br> <br> 
 Previously, I had the pleasure to be a research assistant in the <a href="{{site.webs.VGL}}" target="_blank" rel="noopener">Vision &amp; Graphics Lab</a> at USC ICT for 2 years, collaborating with Prof. <a href="{{site.webs.Hao_Li}}" target="_blank" rel="noopener">Hao Li</a>. I obtained my B.Sc. degree in <b>Physics and Mathematics</b> and M.Sc. degree in <b>Computer Science</b> at Tsinghua University, where I worked closely with Prof.  <a href="{{site.webs.Shi-Min_Hu}}" target="_blank" rel="noopener">Shi-Min Hu</a> and Prof. <a href="{{site.webs.Song-Hai_Zhang}}" target="_blank" rel="noopener">Song-Hai Zhang</a>. I've been interned at NVIDIA, Google Research, Facebook Reality Labs, and Bytedance AI Lab.
 <br> <br> 
