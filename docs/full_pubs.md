@@ -50,7 +50,7 @@ layout: default
     <td><img class="paper-logo" src="projects/pose2seg/logo.jpg"></td>
     <td>
 		<p class="paper-title">Pose2Seg: Detection Free Human Instance Segmentation.</p>  
-		<p class="paper-authors"> Song-Hai Zhang, <b>Ruilong Li*</b>, Xin Dong, Paul Rosin, Zixi Cai, Xi Han, Dingcheng Yang, Haozhi Huang, Shi-Min Hu. (*first student author)</p>
+		<p class="paper-authors"> Song-Hai Zhang, <b>Ruilong Li</b>, Xin Dong, Paul Rosin, Zixi Cai, Xi Han, Dingcheng Yang, Haozhi Huang, Shi-Min Hu.</p>
 		<p class="paper-pub">IEEE Conference on Computer Vision and Pattern Recognition (CVPR, 2019)</p>
 		<p class="paper-links">
 			<a href="projects/pose2seg/files/Camera_Ready.pdf" target="_blank" rel="noopener">

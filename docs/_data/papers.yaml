@@ -1,50 +1,61 @@
+# ---------------------------------------------------------------
+# gsplat
+# ---------------------------------------------------------------
+- year: "2024"
+  paper-logo-mp4: "https://docs.gsplat.studio/main/_images/training.gif"
+  paper-title: "gsplat"
+  paper-authors: 
+  institutions: 
+  # link-arxiv: TODO
+  link-projectpage: https://docs.gsplat.studio/
+  # link-gitcode: TODO
+  # paper-pub: TODO
 
 # ---------------------------------------------------------------
-# Dycheck
+# NerfXL
 # ---------------------------------------------------------------
-- year: "2022"
-  paper-logo-mp4: "https://hangg7.com//assets/dycheck_after.mp4"
-  paper-title: "Monocular Dynamic View Synthesis: A Reality Check"
+- year: "2024"
+  paper-logo-mp4: "https://research.nvidia.com/labs/toronto-ai/nerfxl/assets/nerfxl-teaser-720P-trim.mp4"
+  paper-title: "NeRF-XL: Scaling NeRFs with Multiple GPUs"
   paper-authors: 
-    - name: Hang Gao
-      link: https://hangg7.com/
-      institutions: [1]
-  
     - name: <b>Ruilong Li</b>
       link: http://www.liruilong.cn/
-      institutions: [1]
-  
-    - name: Shubham Tulsiani
-      link: https://shubhtuls.github.io/
-      institutions: [2]
-    
-    - name: Bryan Russell
-      link: https://bryanrussell.org/
-      institutions: [3]
+      institutions: [1, 2]
 
+    - name: Sanja Fidler
+      link: https://www.cs.utoronto.ca/~fidler/
+      institutions: [1]
+    
     - name: Angjoo Kanazawa
       link: https://people.eecs.berkeley.edu/~kanazawa/
-      institutions: [1]
-    
-  institutions: 
-    - name: UC Berkeley
-    - name: CMU
-    - name: Adobe Research
+      institutions: [2]
 
-  link-arxiv: https://arxiv.org/abs/2210.13445
-  link-projectpage: https://hangg7.com/dycheck/
-  link-gitcode: https://github.com/KAIR-BAIR/dycheck/
-  paper-pub: Conference on Neural Information Processing Systems (NeurIPS, 2022)
+    - name: Francis Williams
+      link: https://fwilliams.info/
+      institutions: [1]
+      
+  institutions: 
+    - name: NVIDIA
+    - name: UC Berkeley
+
+  link-arxiv: https://arxiv.org/abs/2404.16221
+  link-projectpage: https://research.nvidia.com/labs/toronto-ai/nerfxl/
+  # link-gitcode: TODO
+  paper-pub: European Conference on Computer Vision (ECCV, 2024)
 
 # ---------------------------------------------------------------
 # NerfAcc
 # ---------------------------------------------------------------
-- year: "2022"
+- year: "2023"
   paper-logo: "https://github.com/nerfstudio-project/nerfacc/blob/master/docs/source/_static/images/logo4x.png?raw=true"
   paper-title: "NerfAcc: A General NeRF Acceleration Toolbox"
   paper-authors: 
     - name: <b>Ruilong Li</b>
       link: http://www.liruilong.cn/
+      institutions: []
+
+    - name: Hang Gao
+      link: https://hangg7.com/
       institutions: []
     
     - name: Matthew Tancik
@@ -58,14 +69,15 @@
   institutions: 
     - name: UC Berkeley
 
-  link-arxiv: https://arxiv.org/pdf/2210.04847
+  link-arxiv: https://arxiv.org/pdf/2305.04966
   link-projectpage: https://www.nerfacc.com/
-  link-gitcode: https://github.com/KAIR-BAIR/nerfacc
+  link-gitcode: https://github.com/nerfstudio-project/nerfacc
+  paper-pub: International Conference on Computer Vision (ICCV, 2023)
 
 # ---------------------------------------------------------------
 # Nerfstudio
 # ---------------------------------------------------------------
-- year: "2022"
+- year: "2023"
   paper-logo: "https://github.com/nerfstudio-project/nerfstudio/blob/main/docs/_static/imgs/logo.png?raw=true"
   paper-title: "Nerfstudio: A collaboration friendly studio for NeRFs."
   paper-authors: 
@@ -121,6 +133,44 @@
 
   link-projectpage: https://docs.nerf.studio/
   link-gitcode: https://github.com/nerfstudio-project/nerfstudio
+  paper-pub: SIGGRAPH 2023
+
+# ---------------------------------------------------------------
+# Dycheck
+# ---------------------------------------------------------------
+- year: "2022"
+  paper-logo-mp4: "https://hangg7.com//assets/dycheck_after.mp4"
+  paper-title: "Monocular Dynamic View Synthesis: A Reality Check"
+  paper-authors: 
+    - name: Hang Gao
+      link: https://hangg7.com/
+      institutions: [1]
+  
+    - name: <b>Ruilong Li</b>
+      link: http://www.liruilong.cn/
+      institutions: [1]
+  
+    - name: Shubham Tulsiani
+      link: https://shubhtuls.github.io/
+      institutions: [2]
+    
+    - name: Bryan Russell
+      link: https://bryanrussell.org/
+      institutions: [3]
+
+    - name: Angjoo Kanazawa
+      link: https://people.eecs.berkeley.edu/~kanazawa/
+      institutions: [1]
+    
+  institutions: 
+    - name: UC Berkeley
+    - name: CMU
+    - name: Adobe Research
+
+  link-arxiv: https://arxiv.org/abs/2210.13445
+  link-projectpage: https://hangg7.com/dycheck/
+  link-gitcode: https://github.com/KAIR-BAIR/dycheck/
+  paper-pub: Conference on Neural Information Processing Systems (NeurIPS, 2022)
 
 # ---------------------------------------------------------------
 # TAVA
@@ -553,7 +603,7 @@
     - name: Song-Hai Zhang
       link: 
       institutions: [1, 2]
-    - name: <b>Ruilong Li (first student author)</b>
+    - name: <b>Ruilong Li</b>
       link: http://www.liruilong.cn/
       institutions: [1, 2]
     - name: Xin Dong

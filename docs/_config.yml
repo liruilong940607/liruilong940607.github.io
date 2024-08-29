@@ -9,7 +9,7 @@ tracking_id: #
 
 footer: yes
 footer_url: ""
-footer_text: "Last update: Oct, 2022"
+footer_text: "Last update: Aug, 2024"
 
 sass:
     style: compressed
