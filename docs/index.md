@@ -4,16 +4,14 @@ layout: default
 
 <tr>
     <td><img class="profile-picture" src="files/photo.jpg"></td>
-    <td><div class="profile-doc">
-		Ph.D. Student @ UC Berkeley<br> 
-		<a href="{{site.webs.BAIR}}" target="_blank" rel="noopener">Berkeley Artifical Intelligence Research (BAIR)</a> <br>
-		Advised by <a href="{{site.webs.Angjoo_Kanazawa}}" target="_blank" rel="noopener">Angjoo Kanazawa</a><br> 
+    <td><div class="profile-doc">Research Scientist<br> 
+		NVIDIA <br>
 		<br> 
-		<a href="mailto:ruilongl@usc.edu">
+		<a href="mailto:ruilongli@berkeley.edu">
 			<i class="fa fa-envelope" aria-hidden="true"></i> ruilongli at berkeley.edu </a> <br> 
 		<a href="https://github.com/liruilong940607">
 			<i class="fa fa-github" aria-hidden="true"></i> Github </a> <br> 
-		<a href="https://scholar.google.com/citations?user=Pz8G-koAAAAJ&hl=en">
+		<a href="https://scholar.google.com/citations?user=mhI3bxsAAAAJ&hl=en">
 			<i class="fa fa-google" aria-hidden="true"></i> Google Scholar </a> <br> 
 		<!-- <a href="https://www.linkedin.com/in/ruilong-li-26b577172/">
 			<i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn </a> <br>  -->
