@@ -1,3 +1,46 @@
+
+# ---------------------------------------------------------------
+# PRoPE
+# ---------------------------------------------------------------
+- year: "2025"
+  paper-logo: "./projects/prope/logo.png"
+  paper-title: "Cameras as Relative Positional Encoding"
+  paper-authors: 
+    - name: <b>Ruilong Li*</b>
+      link: http://www.liruilong.cn/
+      institutions: [1, 2]
+
+    - name: Brent Yi*
+      link: https://brentyi.github.io/
+      institutions: [1]
+
+    - name: Junchen Liu*
+      link: https://junchenliu77.github.io/
+      institutions: [1]
+    
+    - name: Hang Gao
+      link: https://hangg7.com/
+      institutions: [1]
+    
+    - name: Yi Ma
+      link: https://people.eecs.berkeley.edu/~yima/
+      institutions: [1, 3]
+
+    - name: Angjoo Kanazawa
+      link: https://people.eecs.berkeley.edu/~kanazawa/
+      institutions: [1]
+      
+  institutions: 
+    - name: UC Berkeley
+    - name: NVIDIA
+    - name: HKU
+
+  link-arxiv: https://arxiv.org/abs/2507.10496
+  link-projectpage: https://www.liruilong.cn/prope/
+  link-gitcode: https://github.com/liruilong940607/prope
+  paper-pub: arXiv 2025
+
+
 # ---------------------------------------------------------------
 # gsplat
 # ---------------------------------------------------------------
@@ -6,10 +49,10 @@
   paper-title: "gsplat: Efficient Gaussian Splatting CUDA Backend"
   paper-authors: 
   institutions: UC Berkeley
-  # link-arxiv: TODO
+  link-arxiv: https://arxiv.org/abs/2409.06765
   link-projectpage: https://docs.gsplat.studio/
-  # link-gitcode: TODO
-  # paper-pub: TODO
+  link-gitcode: https://github.com/nerfstudio-project/gsplat
+  paper-pub: JMLR 2025
 
 # ---------------------------------------------------------------
 # NerfXL
@@ -384,7 +427,7 @@
 # Learning Formation of Physically-Based Face Attributes
 # ---------------------------------------------------------------
 - year: "2020"
-  paper-logo: "https://drive.google.com/thumbnail?id=1J1WO1-xUuSGE32t68HZ8AvdVjWg6pc8u"
+  paper-logo: "./projects/face/logo.png"
   paper-title: "Learning Formation of Physically-Based Face Attributes"
   paper-authors: 
     - name: <b>Ruilong Li*</b>
@@ -458,7 +501,7 @@
 # Deep Portrait Image Completion and Extrapolation
 # ---------------------------------------------------------------
 - year: "2019"
-  paper-logo: "https://drive.google.com/thumbnail?id=1FBJeQEf4IhoDp9UOIHmI_-zWIjcNmrBX"
+  paper-logo: "./projects/deepportaits.png"
   paper-title: "Deep Portrait Image Completion and Extrapolation"
   paper-authors: 
     - name: Xian Wu
@@ -598,7 +641,7 @@
 # ---------------------------------------------------------------
 
 - year: "2019"
-  paper-logo: "https://drive.google.com/thumbnail?id=1zEcU5r5OfHY65qZtMT5w3Q8rpddxYRPi"
+  paper-logo: "./projects/pose2seg.png"
   paper-title: "Pose2Seg: Detection Free Human Instance Segmentation"
   paper-authors: 
     - name: Song-Hai Zhang
@@ -687,7 +730,7 @@
 # ---------------------------------------------------------------
 
 - year: "2019"
-  paper-logo: "https://drive.google.com/thumbnail?id=1wrW9R2nGH8M4MPrVgbwzVhp-j6OVCgdd"
+  paper-logo: "./projects/guidedpix2pix.png"
   paper-title: "Example-Guided Style-Consistent Image Synthesis from Semantic Labeling"
   paper-authors: 
     - name: Miao Wang
@@ -758,31 +801,31 @@
 
 
 
-- year: "2018"
-  paper-logo: "https://drive.google.com/thumbnail?id=1XyKhs6hjIytIvF1pfpGzeJWl7Muna18Z"
-  paper-title: "Detecting and Removing Visual Distractors for Video Aesthetic Enhancement"
-  paper-authors: 
-    - name: Fang-Lue Zhang
-      link: http://ecs.victoria.ac.nz/Main/FanglueZhang/
-      institutions: 
-    - name: Xian Wu
-      link: 
-      institutions: 
-    - name: <b>Ruilong Li</b>
-      link: http://www.liruilong.cn/
-      institutions: 
-    - name: Jue Wang
-      link: http://www.juew.org/
-      institutions: 
-    - name: Zhao-Heng Zheng
-      link: 
-      institutions: 
-    - name: Shi-Min Hu
-      link: https://cg.cs.tsinghua.edu.cn/prof_hu.htm
-      institutions: 
-  institutions: 
-    - name: Tsinghua University
-  paper-pub: "IEEE Transactions on Multimedia (TMM, 2018)"
-  link-pdf: "https://cg.cs.tsinghua.edu.cn/papers/TMM-2017-VideoDistractor.pdf"
-  link-video1: "http://cg.cs.tsinghua.edu.cn/figures/TMM-2017-VideoDistractor-1.wmv"
-  link-video2: "http://cg.cs.tsinghua.edu.cn/figures/TMM-2017-VideoDistractor-2.wmv"
+# - year: "2018"
+#   paper-logo: "./projects/videoaesthetic.png"
+#   paper-title: "Detecting and Removing Visual Distractors for Video Aesthetic Enhancement"
+#   paper-authors: 
+#     - name: Fang-Lue Zhang
+#       link: http://ecs.victoria.ac.nz/Main/FanglueZhang/
+#       institutions: 
+#     - name: Xian Wu
+#       link: 
+#       institutions: 
+#     - name: <b>Ruilong Li</b>
+#       link: http://www.liruilong.cn/
+#       institutions: 
+#     - name: Jue Wang
+#       link: http://www.juew.org/
+#       institutions: 
+#     - name: Zhao-Heng Zheng
+#       link: 
+#       institutions: 
+#     - name: Shi-Min Hu
+#       link: https://cg.cs.tsinghua.edu.cn/prof_hu.htm
+#       institutions: 
+#   institutions: 
+#     - name: Tsinghua University
+#   paper-pub: "IEEE Transactions on Multimedia (TMM, 2018)"
+#   link-pdf: "https://cg.cs.tsinghua.edu.cn/papers/TMM-2017-VideoDistractor.pdf"
+#   link-video1: "http://cg.cs.tsinghua.edu.cn/figures/TMM-2017-VideoDistractor-1.wmv"
+#   link-video2: "http://cg.cs.tsinghua.edu.cn/figures/TMM-2017-VideoDistractor-2.wmv"
