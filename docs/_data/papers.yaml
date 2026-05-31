@@ -1,5 +1,308 @@
 
 # ---------------------------------------------------------------
+# Lyra 2.0
+# ---------------------------------------------------------------
+- year: "2026"
+  paper-logo-mp4: "https://research.nvidia.com/labs/sil/projects/lyra2/assets/teaser.mp4"
+  paper-title: "Lyra 2.0: Explorable Generative 3D Worlds"
+  paper-authors:
+    - name: Tianchang Shen*
+      link: https://research.nvidia.com/labs/rtr/author/tianchang-shen/
+      institutions: [1]
+
+    - name: Sherwin Bahmani
+      link: https://sherwinbahmani.github.io/
+      institutions: [1]
+
+    - name: Kai He
+      link: https://www.cs.toronto.edu/~hekai/
+      institutions: [1]
+
+    - name: Sangeetha Grama Srinivasan
+      link: https://pages.cs.wisc.edu/~sgsrinivasa2/
+      institutions: [1]
+
+    - name: Tianshi Cao
+      link: https://scholar.google.com/citations?user=CZ9wBBoAAAAJ&hl=en
+      institutions: [1]
+
+    - name: Jiawei Ren
+      link: https://jiawei-ren.github.io/
+      institutions: [1]
+
+    - name: <b>Ruilong Li</b>
+      link: http://www.liruilong.cn/
+      institutions: [1]
+
+    - name: Zian Wang
+      link: https://www.cs.toronto.edu/~zianwang/
+      institutions: [1]
+
+    - name: Nicholas Sharp
+      link: https://nmwsharp.com/
+      institutions: [1]
+
+    - name: Zan Gojcic
+      link: https://zgojcic.github.io/
+      institutions: [1]
+
+    - name: Sanja Fidler
+      link: https://www.cs.utoronto.ca/~fidler/
+      institutions: [1]
+
+    - name: Jiahui Huang
+      link: https://huangjh-pub.github.io/
+      institutions: [1]
+
+    - name: Huan Ling
+      link: https://www.linghuan.ca/
+      institutions: [1]
+
+    - name: Jun Gao
+      link: https://www.cs.toronto.edu/~jungao/
+      institutions: [1]
+
+    - name: Xuanchi Ren*
+      link: https://xuanchiren.com/
+      institutions: [1]
+
+  institutions:
+    - name: NVIDIA
+
+  link-arxiv: https://arxiv.org/abs/2604.13036
+  link-projectpage: https://research.nvidia.com/labs/sil/projects/lyra2/
+  link-gitcode: https://github.com/nv-tlabs/lyra
+  paper-pub: arXiv 2026
+
+
+# ---------------------------------------------------------------
+# VGG-T3
+# ---------------------------------------------------------------
+- year: "2026"
+  paper-logo: "https://research.nvidia.com/labs/dvl/projects/vgg-ttt/_astro/trevi.5k90LXlc_1iJwS5.png"
+  paper-title: "VGG-T<sup>3</sup>: Offline Feed-Forward 3D Reconstruction at Scale"
+  paper-authors:
+    - name: Sven Elflein
+      link: https://selflein.github.io/
+      institutions: [1, 2]
+
+    - name: <b>Ruilong Li</b>
+      link: http://www.liruilong.cn/
+      institutions: [1]
+
+    - name: Sérgio Agostinho
+      link: http://sergioagostinho.com/
+      institutions: [1]
+
+    - name: Zan Gojcic
+      link: https://zgojcic.github.io/
+      institutions: [1]
+
+    - name: Laura Leal-Taixé
+      link: https://dvl.in.tum.de/team/lealtaixe/
+      institutions: [1]
+
+    - name: Qunjie Zhou
+      link: https://dvl.in.tum.de/team/zhouq/
+      institutions: [1]
+
+    - name: Aljosa Osep
+      link: https://research.nvidia.com/labs/dvl/author/aljosa-osep/
+      institutions: [1]
+
+  institutions:
+    - name: NVIDIA
+    - name: University of Toronto, Vector Institute
+
+  link-arxiv: https://arxiv.org/abs/2602.23361
+  link-projectpage: https://research.nvidia.com/labs/dvl/projects/vgg-ttt/
+  link-gitcode: https://github.com/nv-dvl/vgg-ttt
+  paper-pub: IEEE Conference on Computer Vision and Pattern Recognition (CVPR, 2026)
+
+
+# ---------------------------------------------------------------
+# TTT Linear Attention
+# ---------------------------------------------------------------
+- year: "2026"
+  paper-logo: "https://research.nvidia.com/labs/sil/projects/tttla/assets/more_inner_iters.png"
+  paper-title: "Test-Time Training with KV Binding Is Secretly Linear Attention"
+  paper-authors:
+    - name: Junchen Liu*
+      link: https://junchenliu77.github.io/
+      institutions: [1, 2, 3]
+
+    - name: Sven Elflein
+      link: https://selflein.github.io/
+      institutions: [1, 2, 3]
+
+    - name: Or Litany
+      link: https://orlitany.github.io/
+      institutions: [1, 4]
+
+    - name: Zan Gojcic
+      link: https://zgojcic.github.io/
+      institutions: [1]
+
+    - name: <b>Ruilong Li*</b>
+      link: http://www.liruilong.cn/
+      institutions: [1]
+
+  institutions:
+    - name: NVIDIA
+    - name: University of Toronto
+    - name: Vector Institute
+    - name: Technion
+
+  link-arxiv: https://arxiv.org/abs/2602.21204
+  link-projectpage: https://research.nvidia.com/labs/sil/projects/tttla/
+  link-gitcode: https://github.com/nv-tlabs/tttla
+  paper-pub: International Conference on Machine Learning (ICML, 2026)
+
+
+# ---------------------------------------------------------------
+# 3DGS2-TR
+# ---------------------------------------------------------------
+- year: "2026"
+  paper-logo: "./projects/3dgs-tr.png"
+  paper-title: "3DGS<sup>2</sup>-TR: Scalable Second-Order Trust-Region Method for 3D Gaussian Splatting"
+  paper-authors:
+    - name: Roger Hsiao
+      link: https://scholar.google.com/citations?user=he2PGmIAAAAJ&hl=en
+      institutions: [1]
+
+    - name: Yuchen Fang
+      link: https://ychenfang.github.io/
+      institutions: [1]
+
+    - name: Xiangru Huang
+      link: https://people.csail.mit.edu/xrhuang/
+      institutions: [1]
+
+    - name: <b>Ruilong Li</b>
+      link: http://www.liruilong.cn/
+      institutions: [2]
+
+    - name: Hesam Rabeti
+      link: https://rabeti.com/
+      institutions: [2]
+
+    - name: Zan Gojcic
+      link: https://zgojcic.github.io/
+      institutions: [2]
+
+    - name: Javad Lavaei
+      link: https://lavaei.ieor.berkeley.edu/
+      institutions: [1]
+
+    - name: James Demmel
+      link: https://people.eecs.berkeley.edu/~demmel/
+      institutions: [1]
+
+    - name: Sophia Shao
+      link: https://people.eecs.berkeley.edu/~ysshao/
+      institutions: [1]
+
+  institutions:
+    - name: UC Berkeley
+    - name: NVIDIA
+
+  link-arxiv: https://arxiv.org/abs/2602.00395
+  # link-projectpage: TODO
+  # link-gitcode: TODO
+  paper-pub: International Conference on Machine Learning (ICML, 2026)
+
+
+# # ---------------------------------------------------------------
+# # G-SHARP
+# # ---------------------------------------------------------------
+# - year: "2025"
+#   # paper-logo: TODO
+#   paper-title: "G-SHARP: Gaussian Surgical Hardware Accelerated Real-time Pipeline"
+#   paper-authors:
+#     - name: Vishwesh Nath
+#       link: https://research.nvidia.com/person/vishwesh-nath
+#       institutions: []
+#
+#     - name: Javier G. Tejero
+#       link: https://scholar.google.com/citations?user=buyD8b0AAAAJ&hl=es
+#       institutions: []
+#
+#     - name: <b>Ruilong Li</b>
+#       link: http://www.liruilong.cn/
+#       institutions: []
+#
+#     - name: Filippo Filicori
+#       link: https://www.linkedin.com/in/filippo-filicori-3637ab28/
+#       institutions: []
+#
+#     - name: Mahdi Azizian
+#       link: https://developer.nvidia.com/blog/author/mazizian/
+#       institutions: []
+#
+#     - name: Sean D. Huver
+#       link: https://scholar.google.com/citations?user=kl4jZpAAAAAJ&hl=en
+#       institutions: []
+#
+#   # TODO: confirm per-author affiliations.
+#   institutions:
+#     - name: NVIDIA
+#     - name: Northwell Health
+#
+#   link-arxiv: https://arxiv.org/abs/2512.02482
+#   # link-projectpage: TODO
+#   # link-gitcode: TODO
+#   paper-pub: arXiv 2025
+
+
+# ---------------------------------------------------------------
+# SimULi
+# ---------------------------------------------------------------
+- year: "2025"
+  paper-logo-mp4: "https://research.nvidia.com/labs/sil/projects/simuli/assets/videos/teaser.mp4"
+  paper-title: "SimULi: Real-Time LiDAR and Camera Simulation with Unscented Transforms"
+  paper-authors:
+    - name: Haithem Turki*
+      link: https://haithemturki.com/
+      institutions: [1]
+
+    - name: Qi Wu*
+      link: https://wilsoncernwq.github.io/
+      institutions: [1]
+
+    - name: Xin Kang
+      link: https://openreview.net/profile?id=~Xin_Kang3
+      institutions: [1]
+
+    - name: Janick Martinez Esturo
+      link: https://www.jme.pub/
+      institutions: [1]
+
+    - name: Shengyu Huang
+      link: https://shengyuh.github.io/
+      institutions: [1]
+
+    - name: <b>Ruilong Li</b>
+      link: http://www.liruilong.cn/
+      institutions: [1]
+
+    - name: Zan Gojcic
+      link: https://zgojcic.github.io/
+      institutions: [1]
+
+    - name: Riccardo de Lutio
+      link: https://riccardodelutio.github.io/
+      institutions: [1]
+
+  institutions:
+    - name: NVIDIA
+
+  link-arxiv: https://arxiv.org/abs/2510.12901
+  link-projectpage: https://research.nvidia.com/labs/sil/projects/simuli/
+  link-gitcode: https://github.com/nerfstudio-project/gsplat/pull/890
+  paper-pub: International Conference on Learning Representations (ICLR, 2026)
+
+
+# ---------------------------------------------------------------
 # PRoPE
 # ---------------------------------------------------------------
 - year: "2025"

@@ -31,7 +31,7 @@ I am currently a Research Scientist at NVIDIA. I received my PhD from UC Berkele
 <br> <br> 
 Prior to my doctoral studies, I served as a research assistant in the <a href="{{site.webs.VGL}}" target="_blank" rel="noopener">Vision &amp; Graphics Lab</a> at USC ICT for two years, collaborating with Prof. <a href="{{site.webs.Hao_Li}}" target="_blank" rel="noopener">Hao Li</a>. I obtained my B.Sc. degree in Physics and Mathematics and M.Sc. degree in Computer Science from Tsinghua University, where I worked closely with Prof. <a href="{{site.webs.Shi-Min_Hu}}" target="_blank" rel="noopener">Shi-Min Hu</a> and Prof. <a href="{{site.webs.Song-Hai_Zhang}}" target="_blank" rel="noopener">Song-Hai Zhang</a>. I have also interned at NVIDIA, Google Research, Facebook Reality Labs, and Bytedance AI Lab.
 <br> <br> 
-My research interests lie at the intersection of Computer Vision and Computer Graphics, with a particular focus on <b>3D generation and reconstruction</b> from 2D visual information such as images and videos.
+My research interests lie at the intersection of Computer Vision and Computer Graphics, with a particular focus on <b>3D generation and reconstruction</b> in the old days and now <b>interactive world model</b> and <b>efficient ML</b>.
 <br> <br> 
 
 <br>
@@ -54,22 +54,25 @@ My research interests lie at the intersection of Computer Vision and Computer Gr
 	{% endif %}
 	{% if paper.paper-logo-mp4 %}
     <td>
-		<div class="paper-logo">
-		<video width="80%" height="80%" muted autoplay loop>
+		<video class="paper-logo" muted autoplay loop playsinline>
 			<source src="{{paper.paper-logo-mp4}}" type="video/mp4">
 			Your browser does not support the video tag.
 		</video>
-		</div>
 	</td>
 	{% endif %}
     <td>
 		<p class="paper-title">{{paper.paper-title}}</p>  
 		<p class="paper-authors">
 			{% for author in paper.paper-authors %}
-				{% if forloop.last == true %}
-					{{author.name}}.
+				{% if author.link %}
+					<a href="{{author.link}}" target="_blank" rel="noopener">{{author.name}}</a>
 				{% else %}
-					{{author.name}},
+					{{author.name}}
+				{% endif %}
+				{% if forloop.last == true %}
+					.
+				{% else %}
+					,
 				{% endif %}
 			{% endfor %}
 		</p>
@@ -146,5 +149,3 @@ My research interests lie at the intersection of Computer Vision and Computer Gr
 {% endfor %}
 
 <!-- See [full publication list](full_pubs.html). -->
-
-
