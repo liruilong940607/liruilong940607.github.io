@@ -1,9 +1,49 @@
 
 # ---------------------------------------------------------------
+# FlashDreams
+# ---------------------------------------------------------------
+- year: "2026"
+  paper-logo: "https://flashdreams.org/main/_static/promo/flashdreams-promo.avif"
+  paper-title: "FlashDreams: High-Performance Inference and Serving for Interactive Video and World Models"
+  paper-authors:
+    - name: FlashDreams Contributors
+      link: https://github.com/NVIDIA/flashdreams/graphs/contributors
+      institutions: [1]
+
+  institutions:
+    - name: NVIDIA
+
+  link-projectpage: https://flashdreams.org/
+  link-gitcode: https://github.com/NVIDIA/flashdreams
+  paper-pub: "<b>Project Lead</b> · Open-source project, 2026"
+
+
+# ---------------------------------------------------------------
+# OmniDreams
+# ---------------------------------------------------------------
+- year: "2026"
+  paper-logo: "https://arxiv.org/html/2606.03159v2/teaser.png"
+  paper-title: "NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation"
+  paper-authors:
+    - name: OmniDreams Contributors
+      link: https://research.nvidia.com/labs/sil/projects/omnidreams-blog/#contributors
+      institutions: [1]
+
+  institutions:
+    - name: NVIDIA
+
+  link-arxiv: https://arxiv.org/abs/2606.03159
+  link-projectpage: https://research.nvidia.com/labs/sil/projects/omnidreams-blog/
+  link-gitcode: https://github.com/nv-tlabs/omni-dreams
+  link-video: https://research.nvidia.com/labs/sil/projects/omnidreams-blog/teaser.mp4
+  paper-pub: "<b>Inference Lead</b> · Technical Report, 2026"
+
+
+# ---------------------------------------------------------------
 # Lyra 2.0
 # ---------------------------------------------------------------
 - year: "2026"
-  paper-logo-mp4: "https://research.nvidia.com/labs/sil/projects/lyra2/assets/teaser.mp4"
+  paper-logo-mp4: "https://github.com/user-attachments/assets/f47c24c0-453e-4134-84f1-80c56613f4af"
   paper-title: "Lyra 2.0: Explorable Generative 3D Worlds"
   paper-authors:
     - name: Tianchang Shen*
