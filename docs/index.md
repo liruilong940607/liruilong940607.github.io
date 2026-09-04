@@ -4,8 +4,7 @@ layout: default
 
 <tr>
     <td><img class="profile-picture" src="files/photo.jpg"></td>
-    <td><div class="profile-doc">Research Scientist<br> 
-		NVIDIA <br>
+    <td><div class="profile-doc">Building something new<br>
 		<br> 
 		<a href="mailto:ruilongli@berkeley.edu">
 			<i class="fa fa-envelope" aria-hidden="true"></i> ruilongli at berkeley.edu </a> <br> 
@@ -27,7 +26,7 @@ layout: default
 ## About Me
 
 <p>
-I am currently a Research Scientist at NVIDIA. I received my PhD from UC Berkeley, where I was advised by Prof. <a href="{{site.webs.Angjoo_Kanazawa}}" target="_blank" rel="noopener">Angjoo Kanazawa</a> in <a href="{{site.webs.BAIR}}" target="_blank" rel="noopener">BAIR</a>.
+I am currently building something new. Previously, I was a Research Scientist at NVIDIA. I received my PhD from UC Berkeley, where I was advised by Prof. <a href="{{site.webs.Angjoo_Kanazawa}}" target="_blank" rel="noopener">Angjoo Kanazawa</a> in <a href="{{site.webs.BAIR}}" target="_blank" rel="noopener">BAIR</a>.
 <br> <br> 
 Prior to my doctoral studies, I served as a research assistant in the <a href="{{site.webs.VGL}}" target="_blank" rel="noopener">Vision &amp; Graphics Lab</a> at USC ICT for two years, collaborating with Prof. <a href="{{site.webs.Hao_Li}}" target="_blank" rel="noopener">Hao Li</a>. I obtained my B.Sc. degree in Physics and Mathematics and M.Sc. degree in Computer Science from Tsinghua University, where I worked closely with Prof. <a href="{{site.webs.Shi-Min_Hu}}" target="_blank" rel="noopener">Shi-Min Hu</a> and Prof. <a href="{{site.webs.Song-Hai_Zhang}}" target="_blank" rel="noopener">Song-Hai Zhang</a>. I have also interned at NVIDIA, Google Research, Facebook Reality Labs, and Bytedance AI Lab.
 <br> <br> 
